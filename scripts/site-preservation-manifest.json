@@ -1,0 +1,85 @@
+{
+  "originals": [
+    {
+      "path": "index.html",
+      "size": 15819,
+      "sha256": "a9e36517917a683d4f63bd9842446c7835ae83ce67708c4c73d81b8aff3cc9b8"
+    },
+    {
+      "path": "marmores.html",
+      "size": 5984,
+      "sha256": "0cf7caf30d20422ba56fe4844562c23091315c707998bc3975a25fc0b1ed435b"
+    },
+    {
+      "path": "quartzitos.html",
+      "size": 5825,
+      "sha256": "51113b1f78791b487845e827726eeac1c7108b37867ddeb4e62110fcbc0d5636"
+    },
+    {
+      "path": "granitos.html",
+      "size": 5730,
+      "sha256": "fa5be56a8ff2a6b3393dce44ffb81552779376c55ac74f11e9983e8d5bf667e1"
+    },
+    {
+      "path": "superficies-especiais.html",
+      "size": 5864,
+      "sha256": "63ca6af23214afab9bc8be5e676be2f940d7bc33f37d9d1c40d741737f786dc4"
+    },
+    {
+      "path": "execucao.html",
+      "size": 7317,
+      "sha256": "4cc5f905eb2d183edc66628c4164a933bbe6cd4b0b412fcfd8d6799256c3b492"
+    },
+    {
+      "path": "projeto-azul-imperial.html",
+      "size": 6556,
+      "sha256": "b419f08d5628bb7d42f11955eca7467a7d67780472c434f42d90ede136272d4d"
+    },
+    {
+      "path": "projeto-escada-calcario.html",
+      "size": 6615,
+      "sha256": "d0b3c0c68ff196f98d3b80731661033ab3962ab4c15b67f278b98de2236226ce"
+    },
+    {
+      "path": "styles.css",
+      "size": 37665,
+      "sha256": "302e4355ce416f82a37e96135ecc7d41b07ddb69c56c3743c3eefd1a96ce104a"
+    },
+    {
+      "path": "script.js",
+      "size": 5635,
+      "sha256": "4455de0009125fd52cf0dcb6440f20c9ff36a3028afb73b8b778fde1e73c199b"
+    },
+    {
+      "path": "assets/hero-cozinha.webp",
+      "size": 113106,
+      "sha256": "2f1d00914734e59fb1d0baf57637c4824d51275eff7b51f5d35cd93e6f052dc9"
+    },
+    {
+      "path": "assets/banho-quartzito.webp",
+      "size": 259890,
+      "sha256": "0d964f47c0b3ec458c7a4a3e6ab5953db9d40d288904eeaeff50eb12c83839f9"
+    },
+    {
+      "path": "assets/escada-calcario.webp",
+      "size": 118166,
+      "sha256": "509a2f429cb78b3faf66abf88881413e5419cf5e8b087c9170766f344b898063"
+    }
+  ],
+  "copies": [
+    ["styles.css", "app/globals.css"],
+    ["assets/hero-cozinha.webp", "public/assets/hero-cozinha.webp"],
+    ["assets/banho-quartzito.webp", "public/assets/banho-quartzito.webp"],
+    ["assets/escada-calcario.webp", "public/assets/escada-calcario.webp"]
+  ],
+  "routes": [
+    ["index.html", "app/page.jsx"],
+    ["marmores.html", "app/marmores.html/page.jsx"],
+    ["quartzitos.html", "app/quartzitos.html/page.jsx"],
+    ["granitos.html", "app/granitos.html/page.jsx"],
+    ["superficies-especiais.html", "app/superficies-especiais.html/page.jsx"],
+    ["execucao.html", "app/execucao.html/page.jsx"],
+    ["projeto-azul-imperial.html", "app/projeto-azul-imperial.html/page.jsx"],
+    ["projeto-escada-calcario.html", "app/projeto-escada-calcario.html/page.jsx"]
+  ]
+}

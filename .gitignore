@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Next.js and generated builds
+.next/
+.next-build/
+out/
+dist/
+
+# Local dependency repair artifacts
+.deps-clean/
+
+# Vercel local metadata
+.vercel/
+
+# Environment and logs
+.env*
+!.env.example
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
