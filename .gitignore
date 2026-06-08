@@ -10,6 +10,9 @@ dist/
 # Local dependency repair artifacts
 .deps-clean/
 
+# Local project backups
+SCMarmores-backup*/
+
 # Vercel local metadata
 .vercel/
 
