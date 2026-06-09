@@ -16,6 +16,11 @@ SCMarmores-backup*/
 # Vercel local metadata
 .vercel/
 
+# Generated diagnostics and local reference dumps
+SC MÁRMORES_CATÁLOGO DE MÁRMORES E GRANITOS_2025.pdf
+plano-hierarquia-conteudo-catalogo.html
+public/catalogo/_contact-*.jpg
+
 # Environment and logs
 .env*
 !.env.example

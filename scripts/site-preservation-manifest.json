@@ -2,8 +2,8 @@
   "originals": [
     {
       "path": "index.html",
-      "size": 15819,
-      "sha256": "a9e36517917a683d4f63bd9842446c7835ae83ce67708c4c73d81b8aff3cc9b8"
+      "size": 17897,
+      "sha256": "0866bf0cd2e6fdef8ce3be0954b25b69b0d485b5d9f9387439e58f9c50551670"
     },
     {
       "path": "marmores.html",
@@ -42,8 +42,8 @@
     },
     {
       "path": "styles.css",
-      "size": 44328,
-      "sha256": "09322b3dad59bb62fc53568e21349959bfda8736ce9b28e5b664d4ccb51cde42"
+      "size": 45374,
+      "sha256": "3b08122ea9b569858a1b5600792d60d467c702e6192d359f54978f438c2bcc75"
     },
     {
       "path": "script.js",

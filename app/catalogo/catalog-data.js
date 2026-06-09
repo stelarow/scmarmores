@@ -65,5 +65,7 @@ export const catalogCategories = [
 
 export const getCatalogCategory = (slug) => catalogCategories.find((category) => category.slug === slug);
 
-export const catalogPageImage = (category, page) =>
-  `/catalogo/${category.slug}/pagina-${String(page).padStart(2, '0')}.webp`;
+export const catalogPageImage = (category, page) => {
+  const cleanGranitePage = category.slug === 'granitos' && page >= 25 && page <= 30;
+  return `/catalogo/${category.slug}/pagina-${String(page).padStart(2, '0')}${cleanGranitePage ? '-sem-site' : ''}.webp`;
+};
