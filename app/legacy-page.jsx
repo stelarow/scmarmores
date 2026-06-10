@@ -2,6 +2,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { cache } from 'react';
 import LegacyInteractions from './legacy-interactions';
+import { catalogCategories } from './catalogo/catalog-data';
+
+const materialGallery = catalogCategories
+  .map(
+    (category, index) => `
+      <a class="material-tile${index === 0 ? ' material-tile-featured' : ''}" href="/catalogo/${category.slug}">
+        <img src="${category.preview.src}" alt="Referência visual de ${category.shortName || category.name}" loading="lazy" />
+        <span class="material-tile-shade"></span>
+        <span class="material-tile-meta">${category.eyebrow}</span>
+        <strong>${category.shortName || category.name}</strong>
+        <i aria-hidden="true">↗</i>
+      </a>`,
+  )
+  .join('');
 
 const readLegacyPage = cache((filename) => {
   const source = fs.readFileSync(path.join(process.cwd(), filename), 'utf8');
@@ -26,6 +40,14 @@ const readLegacyPage = cache((filename) => {
       .replace(
         '<p>Analisamos desenho, resistência, acabamento, manutenção e contexto de uso para indicar uma superfície tão adequada quanto bonita.</p>',
         '<p>Conheça as linhas e os modelos disponíveis na SC Mármores. Nossa equipe auxilia na avaliação de aparência, aplicação, acabamento e disponibilidade.</p><a class="text-link" href="/catalogo">Explorar o catálogo <span>→</span></a>',
+      )
+      .replace(
+        'Cada família responde de forma diferente à luz, ao uso e ao desenho do ambiente. Organizamos a seleção pelo que importa para o projeto, não pela ordem de um catálogo.',
+        'Cada família oferece uma leitura diferente de cor, movimento e presença. Reunimos referências para orientar a escolha a partir da arquitetura, do uso e da intenção de cada projeto.',
+      )
+      .replace(
+        /<div class="material-gallery"[\s\S]*?<\/div>\s*<\/section>/i,
+        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>`,
       )
       .replaceAll('href="/marmores.html"', 'href="/catalogo/marmores"')
       .replaceAll('href="/quartzitos.html"', 'href="/catalogo/quartzitos"')

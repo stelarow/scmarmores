@@ -1,0 +1,3598 @@
+{
+    "silestones":  [
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-003-imagem-01.webp",
+                           "page":  3,
+                           "sequence":  1,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  2104
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-004-imagem-02.webp",
+                           "page":  4,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  667
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-004-imagem-03.webp",
+                           "page":  4,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  371,
+                           "height":  351
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-004-imagem-04.webp",
+                           "page":  4,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  360,
+                           "height":  346
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-004-imagem-05.webp",
+                           "page":  4,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  379,
+                           "height":  356
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-004-imagem-06.webp",
+                           "page":  4,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  360,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-004-imagem-07.webp",
+                           "page":  4,
+                           "sequence":  7,
+                           "role":  "sample",
+                           "width":  351,
+                           "height":  340
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-004-imagem-08.webp",
+                           "page":  4,
+                           "sequence":  8,
+                           "role":  "sample",
+                           "width":  359,
+                           "height":  356
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-005-imagem-02.webp",
+                           "page":  5,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  667
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-005-imagem-03.webp",
+                           "page":  5,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  355,
+                           "height":  362
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-005-imagem-04.webp",
+                           "page":  5,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  360,
+                           "height":  300
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-005-imagem-05.webp",
+                           "page":  5,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  381,
+                           "height":  357
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-005-imagem-06.webp",
+                           "page":  5,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  358,
+                           "height":  358
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-005-imagem-07.webp",
+                           "page":  5,
+                           "sequence":  7,
+                           "role":  "sample",
+                           "width":  360,
+                           "height":  364
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-005-imagem-08.webp",
+                           "page":  5,
+                           "sequence":  8,
+                           "role":  "sample",
+                           "width":  360,
+                           "height":  348
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-006-imagem-02.webp",
+                           "page":  6,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  667
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-006-imagem-03.webp",
+                           "page":  6,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  356,
+                           "height":  354
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-006-imagem-04.webp",
+                           "page":  6,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-006-imagem-05.webp",
+                           "page":  6,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-006-imagem-06.webp",
+                           "page":  6,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  377,
+                           "height":  354
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-006-imagem-07.webp",
+                           "page":  6,
+                           "sequence":  7,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  354
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-006-imagem-08.webp",
+                           "page":  6,
+                           "sequence":  8,
+                           "role":  "sample",
+                           "width":  377,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-007-imagem-02.webp",
+                           "page":  7,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  667
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-007-imagem-03.webp",
+                           "page":  7,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  356,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-007-imagem-04.webp",
+                           "page":  7,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  350,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-007-imagem-05.webp",
+                           "page":  7,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-007-imagem-06.webp",
+                           "page":  7,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  377,
+                           "height":  354
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-007-imagem-07.webp",
+                           "page":  7,
+                           "sequence":  7,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-007-imagem-08.webp",
+                           "page":  7,
+                           "sequence":  8,
+                           "role":  "sample",
+                           "width":  377,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-008-imagem-02.webp",
+                           "page":  8,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  667
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-008-imagem-04.webp",
+                           "page":  8,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  353,
+                           "height":  352
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-008-imagem-05.webp",
+                           "page":  8,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  377,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-008-imagem-06.webp",
+                           "page":  8,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-008-imagem-08.webp",
+                           "page":  8,
+                           "sequence":  8,
+                           "role":  "sample",
+                           "width":  353,
+                           "height":  354
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-009-imagem-02.webp",
+                           "page":  9,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  667
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-009-imagem-03.webp",
+                           "page":  9,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  357,
+                           "height":  354
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-009-imagem-04.webp",
+                           "page":  9,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  353,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-009-imagem-05.webp",
+                           "page":  9,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-009-imagem-06.webp",
+                           "page":  9,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  377,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-009-imagem-07.webp",
+                           "page":  9,
+                           "sequence":  7,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-010-imagem-02.webp",
+                           "page":  10,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  667
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-010-imagem-03.webp",
+                           "page":  10,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  357,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-010-imagem-04.webp",
+                           "page":  10,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  353,
+                           "height":  352
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-010-imagem-05.webp",
+                           "page":  10,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  345
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-010-imagem-06.webp",
+                           "page":  10,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  378,
+                           "height":  346
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-010-imagem-07.webp",
+                           "page":  10,
+                           "sequence":  7,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-010-imagem-08.webp",
+                           "page":  10,
+                           "sequence":  8,
+                           "role":  "sample",
+                           "width":  378,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-011-imagem-02.webp",
+                           "page":  11,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  667
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-011-imagem-03.webp",
+                           "page":  11,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  354
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-011-imagem-04.webp",
+                           "page":  11,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  353
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-011-imagem-06.webp",
+                           "page":  11,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  354,
+                           "height":  352
+                       },
+                       {
+                           "src":  "/catalogo/editorial/silestones/pagina-011-imagem-07.webp",
+                           "page":  11,
+                           "sequence":  7,
+                           "role":  "sample",
+                           "width":  357,
+                           "height":  354
+                       }
+                   ],
+    "dekton":  [
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-012-imagem-01.webp",
+                       "page":  12,
+                       "sequence":  1,
+                       "role":  "feature",
+                       "width":  1385,
+                       "height":  2104
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-013-imagem-02.webp",
+                       "page":  13,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-013-imagem-03.webp",
+                       "page":  13,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-013-imagem-04.webp",
+                       "page":  13,
+                       "sequence":  4,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-013-imagem-05.webp",
+                       "page":  13,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-013-imagem-06.webp",
+                       "page":  13,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  354
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-013-imagem-07.webp",
+                       "page":  13,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-013-imagem-08.webp",
+                       "page":  13,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  354
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-014-imagem-02.webp",
+                       "page":  14,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-014-imagem-03.webp",
+                       "page":  14,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-014-imagem-05.webp",
+                       "page":  14,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-014-imagem-08.webp",
+                       "page":  14,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  354
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-015-imagem-02.webp",
+                       "page":  15,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-015-imagem-03.webp",
+                       "page":  15,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-015-imagem-04.webp",
+                       "page":  15,
+                       "sequence":  4,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-015-imagem-05.webp",
+                       "page":  15,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-015-imagem-06.webp",
+                       "page":  15,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-015-imagem-07.webp",
+                       "page":  15,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-015-imagem-08.webp",
+                       "page":  15,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-016-imagem-02.webp",
+                       "page":  16,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-016-imagem-03.webp",
+                       "page":  16,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  310,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-016-imagem-04.webp",
+                       "page":  16,
+                       "sequence":  4,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  352
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-016-imagem-05.webp",
+                       "page":  16,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-016-imagem-06.webp",
+                       "page":  16,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  352
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-016-imagem-07.webp",
+                       "page":  16,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-016-imagem-08.webp",
+                       "page":  16,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-017-imagem-02.webp",
+                       "page":  17,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-017-imagem-03.webp",
+                       "page":  17,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-017-imagem-05.webp",
+                       "page":  17,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-017-imagem-06.webp",
+                       "page":  17,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-017-imagem-07.webp",
+                       "page":  17,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  354
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-017-imagem-08.webp",
+                       "page":  17,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  354
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-018-imagem-02.webp",
+                       "page":  18,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-018-imagem-03.webp",
+                       "page":  18,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-018-imagem-04.webp",
+                       "page":  18,
+                       "sequence":  4,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-018-imagem-05.webp",
+                       "page":  18,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-018-imagem-06.webp",
+                       "page":  18,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  352
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-018-imagem-07.webp",
+                       "page":  18,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-018-imagem-08.webp",
+                       "page":  18,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-019-imagem-02.webp",
+                       "page":  19,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-019-imagem-03.webp",
+                       "page":  19,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-019-imagem-05.webp",
+                       "page":  19,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  349
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-019-imagem-06.webp",
+                       "page":  19,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  352
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-019-imagem-07.webp",
+                       "page":  19,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-019-imagem-08.webp",
+                       "page":  19,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-020-imagem-02.webp",
+                       "page":  20,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-020-imagem-04.webp",
+                       "page":  20,
+                       "sequence":  4,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-020-imagem-05.webp",
+                       "page":  20,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-020-imagem-06.webp",
+                       "page":  20,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  352
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-020-imagem-07.webp",
+                       "page":  20,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-020-imagem-08.webp",
+                       "page":  20,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-021-imagem-02.webp",
+                       "page":  21,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-021-imagem-03.webp",
+                       "page":  21,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-021-imagem-04.webp",
+                       "page":  21,
+                       "sequence":  4,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-021-imagem-05.webp",
+                       "page":  21,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-021-imagem-06.webp",
+                       "page":  21,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  352
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-021-imagem-07.webp",
+                       "page":  21,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  295
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-022-imagem-02.webp",
+                       "page":  22,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-022-imagem-03.webp",
+                       "page":  22,
+                       "sequence":  3,
+                       "role":  "sample",
+                       "width":  353,
+                       "height":  352
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-022-imagem-04.webp",
+                       "page":  22,
+                       "sequence":  4,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-022-imagem-06.webp",
+                       "page":  22,
+                       "sequence":  6,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-022-imagem-07.webp",
+                       "page":  22,
+                       "sequence":  7,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-022-imagem-08.webp",
+                       "page":  22,
+                       "sequence":  8,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  353
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-023-imagem-02.webp",
+                       "page":  23,
+                       "sequence":  2,
+                       "role":  "feature",
+                       "width":  1487,
+                       "height":  769
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-023-imagem-04.webp",
+                       "page":  23,
+                       "sequence":  4,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  354
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-023-imagem-05.webp",
+                       "page":  23,
+                       "sequence":  5,
+                       "role":  "sample",
+                       "width":  354,
+                       "height":  354
+                   },
+                   {
+                       "src":  "/catalogo/editorial/dekton/pagina-023-imagem-06.webp",
+                       "page":  23,
+                       "sequence":  6,
+                       "role":  "feature",
+                       "width":  1481,
+                       "height":  652
+                   }
+               ],
+    "granitos":  [
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-024-imagem-01.webp",
+                         "page":  24,
+                         "sequence":  1,
+                         "role":  "feature",
+                         "width":  1403,
+                         "height":  2104
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-025-imagem-02.webp",
+                         "page":  25,
+                         "sequence":  2,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-025-imagem-03.webp",
+                         "page":  25,
+                         "sequence":  3,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-025-imagem-04.webp",
+                         "page":  25,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  387,
+                         "height":  392
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-025-imagem-05.webp",
+                         "page":  25,
+                         "sequence":  5,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-025-imagem-06.webp",
+                         "page":  25,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  390,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-025-imagem-07.webp",
+                         "page":  25,
+                         "sequence":  7,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-025-imagem-08.webp",
+                         "page":  25,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  390,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-025-imagem-09.webp",
+                         "page":  25,
+                         "sequence":  9,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-026-imagem-02.webp",
+                         "page":  26,
+                         "sequence":  2,
+                         "role":  "sample",
+                         "width":  390,
+                         "height":  392
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-026-imagem-03.webp",
+                         "page":  26,
+                         "sequence":  3,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-026-imagem-04.webp",
+                         "page":  26,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  392
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-026-imagem-05.webp",
+                         "page":  26,
+                         "sequence":  5,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-026-imagem-06.webp",
+                         "page":  26,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  390,
+                         "height":  390
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-026-imagem-07.webp",
+                         "page":  26,
+                         "sequence":  7,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-026-imagem-08.webp",
+                         "page":  26,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  392,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-026-imagem-09.webp",
+                         "page":  26,
+                         "sequence":  9,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-027-imagem-02.webp",
+                         "page":  27,
+                         "sequence":  2,
+                         "role":  "sample",
+                         "width":  392,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-027-imagem-04.webp",
+                         "page":  27,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-027-imagem-05.webp",
+                         "page":  27,
+                         "sequence":  5,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-027-imagem-06.webp",
+                         "page":  27,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-027-imagem-07.webp",
+                         "page":  27,
+                         "sequence":  7,
+                         "role":  "feature",
+                         "width":  299,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-027-imagem-08.webp",
+                         "page":  27,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  392,
+                         "height":  390
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-027-imagem-09.webp",
+                         "page":  27,
+                         "sequence":  9,
+                         "role":  "feature",
+                         "width":  299,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-028-imagem-02.webp",
+                         "page":  28,
+                         "sequence":  2,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  382
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-028-imagem-03.webp",
+                         "page":  28,
+                         "sequence":  3,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-028-imagem-04.webp",
+                         "page":  28,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-028-imagem-05.webp",
+                         "page":  28,
+                         "sequence":  5,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-028-imagem-06.webp",
+                         "page":  28,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  392
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-028-imagem-07.webp",
+                         "page":  28,
+                         "sequence":  7,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-028-imagem-08.webp",
+                         "page":  28,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  390
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-028-imagem-09.webp",
+                         "page":  28,
+                         "sequence":  9,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-029-imagem-02.webp",
+                         "page":  29,
+                         "sequence":  2,
+                         "role":  "sample",
+                         "width":  390,
+                         "height":  392
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-029-imagem-03.webp",
+                         "page":  29,
+                         "sequence":  3,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-029-imagem-04.webp",
+                         "page":  29,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  390,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-029-imagem-05.webp",
+                         "page":  29,
+                         "sequence":  5,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-029-imagem-06.webp",
+                         "page":  29,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  390,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-029-imagem-07.webp",
+                         "page":  29,
+                         "sequence":  7,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-029-imagem-08.webp",
+                         "page":  29,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  392,
+                         "height":  389
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-029-imagem-09.webp",
+                         "page":  29,
+                         "sequence":  9,
+                         "role":  "feature",
+                         "width":  300,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-030-imagem-02.webp",
+                         "page":  30,
+                         "sequence":  2,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  329
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-030-imagem-03.webp",
+                         "page":  30,
+                         "sequence":  3,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  90
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-030-imagem-04.webp",
+                         "page":  30,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  390,
+                         "height":  392
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-030-imagem-05.webp",
+                         "page":  30,
+                         "sequence":  5,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-030-imagem-06.webp",
+                         "page":  30,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-030-imagem-07.webp",
+                         "page":  30,
+                         "sequence":  7,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-030-imagem-08.webp",
+                         "page":  30,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  391,
+                         "height":  391
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-030-imagem-09.webp",
+                         "page":  30,
+                         "sequence":  9,
+                         "role":  "feature",
+                         "width":  298,
+                         "height":  89
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-031-imagem-01.webp",
+                         "page":  31,
+                         "sequence":  1,
+                         "role":  "feature",
+                         "width":  1488,
+                         "height":  2104
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-031-imagem-02.webp",
+                         "page":  31,
+                         "sequence":  2,
+                         "role":  "sample",
+                         "width":  321,
+                         "height":  319
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-032-imagem-02.webp",
+                         "page":  32,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1488,
+                         "height":  207
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-032-imagem-04.webp",
+                         "page":  32,
+                         "sequence":  4,
+                         "role":  "feature",
+                         "width":  719,
+                         "height":  421
+                     },
+                     {
+                         "src":  "/catalogo/editorial/granitos/pagina-032-imagem-05.webp",
+                         "page":  32,
+                         "sequence":  5,
+                         "role":  "feature",
+                         "width":  253,
+                         "height":  139
+                     }
+                 ],
+    "quartzitos":  [
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-033-imagem-01.webp",
+                           "page":  33,
+                           "sequence":  1,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  1657
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-033-imagem-02.webp",
+                           "page":  33,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  157,
+                           "height":  157
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-033-imagem-03.webp",
+                           "page":  33,
+                           "sequence":  3,
+                           "role":  "feature",
+                           "width":  157,
+                           "height":  157
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-033-imagem-04.webp",
+                           "page":  33,
+                           "sequence":  4,
+                           "role":  "feature",
+                           "width":  166,
+                           "height":  165
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-034-imagem-02.webp",
+                           "page":  34,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-034-imagem-03.webp",
+                           "page":  34,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-034-imagem-04.webp",
+                           "page":  34,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-034-imagem-05.webp",
+                           "page":  34,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-034-imagem-06.webp",
+                           "page":  34,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp",
+                           "page":  35,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-035-imagem-03.webp",
+                           "page":  35,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-035-imagem-04.webp",
+                           "page":  35,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-035-imagem-05.webp",
+                           "page":  35,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  286
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-035-imagem-06.webp",
+                           "page":  35,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  285,
+                           "height":  274
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-036-imagem-02.webp",
+                           "page":  36,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-036-imagem-03.webp",
+                           "page":  36,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-036-imagem-04.webp",
+                           "page":  36,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-036-imagem-05.webp",
+                           "page":  36,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-036-imagem-06.webp",
+                           "page":  36,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  285
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-037-imagem-02.webp",
+                           "page":  37,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-037-imagem-03.webp",
+                           "page":  37,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-037-imagem-04.webp",
+                           "page":  37,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-037-imagem-05.webp",
+                           "page":  37,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  288,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-037-imagem-06.webp",
+                           "page":  37,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  284,
+                           "height":  283
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-038-imagem-02.webp",
+                           "page":  38,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-038-imagem-03.webp",
+                           "page":  38,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-038-imagem-04.webp",
+                           "page":  38,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-038-imagem-05.webp",
+                           "page":  38,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  286,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-038-imagem-06.webp",
+                           "page":  38,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-039-imagem-02.webp",
+                           "page":  39,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-039-imagem-03.webp",
+                           "page":  39,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-039-imagem-04.webp",
+                           "page":  39,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-039-imagem-05.webp",
+                           "page":  39,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  286,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-039-imagem-06.webp",
+                           "page":  39,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-040-imagem-02.webp",
+                           "page":  40,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-040-imagem-03.webp",
+                           "page":  40,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-040-imagem-04.webp",
+                           "page":  40,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-040-imagem-05.webp",
+                           "page":  40,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  286,
+                           "height":  286
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-040-imagem-06.webp",
+                           "page":  40,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-041-imagem-02.webp",
+                           "page":  41,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-041-imagem-03.webp",
+                           "page":  41,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  288,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-041-imagem-04.webp",
+                           "page":  41,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  286
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-041-imagem-05.webp",
+                           "page":  41,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  286,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-041-imagem-06.webp",
+                           "page":  41,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-042-imagem-02.webp",
+                           "page":  42,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-042-imagem-03.webp",
+                           "page":  42,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  288,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-042-imagem-04.webp",
+                           "page":  42,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-042-imagem-05.webp",
+                           "page":  42,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  286,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-042-imagem-06.webp",
+                           "page":  42,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  286,
+                           "height":  286
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-043-imagem-02.webp",
+                           "page":  43,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-043-imagem-03.webp",
+                           "page":  43,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-043-imagem-04.webp",
+                           "page":  43,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-043-imagem-05.webp",
+                           "page":  43,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  286,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-043-imagem-06.webp",
+                           "page":  43,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-044-imagem-02.webp",
+                           "page":  44,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  662
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-044-imagem-03.webp",
+                           "page":  44,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  288,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-044-imagem-04.webp",
+                           "page":  44,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  287,
+                           "height":  287
+                       },
+                       {
+                           "src":  "/catalogo/editorial/quartzitos/pagina-044-imagem-05.webp",
+                           "page":  44,
+                           "sequence":  5,
+                           "role":  "feature",
+                           "width":  1485,
+                           "height":  764
+                       }
+                   ],
+    "compacstones":  [
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-045-imagem-02.webp",
+                             "page":  45,
+                             "sequence":  2,
+                             "role":  "feature",
+                             "width":  1488,
+                             "height":  2104
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-05.webp",
+                             "page":  46,
+                             "sequence":  5,
+                             "role":  "sample",
+                             "width":  301,
+                             "height":  424
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-06.webp",
+                             "page":  46,
+                             "sequence":  6,
+                             "role":  "sample",
+                             "width":  302,
+                             "height":  423
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-07.webp",
+                             "page":  46,
+                             "sequence":  7,
+                             "role":  "sample",
+                             "width":  301,
+                             "height":  421
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-08.webp",
+                             "page":  46,
+                             "sequence":  8,
+                             "role":  "sample",
+                             "width":  284,
+                             "height":  423
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-09.webp",
+                             "page":  46,
+                             "sequence":  9,
+                             "role":  "sample",
+                             "width":  301,
+                             "height":  422
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-10.webp",
+                             "page":  46,
+                             "sequence":  10,
+                             "role":  "sample",
+                             "width":  300,
+                             "height":  422
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-11.webp",
+                             "page":  46,
+                             "sequence":  11,
+                             "role":  "sample",
+                             "width":  302,
+                             "height":  422
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-13.webp",
+                             "page":  46,
+                             "sequence":  13,
+                             "role":  "sample",
+                             "width":  302,
+                             "height":  423
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-14.webp",
+                             "page":  46,
+                             "sequence":  14,
+                             "role":  "sample",
+                             "width":  301,
+                             "height":  397
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-15.webp",
+                             "page":  46,
+                             "sequence":  15,
+                             "role":  "sample",
+                             "width":  301,
+                             "height":  423
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-046-imagem-16.webp",
+                             "page":  46,
+                             "sequence":  16,
+                             "role":  "sample",
+                             "width":  284,
+                             "height":  423
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-047-imagem-05.webp",
+                             "page":  47,
+                             "sequence":  5,
+                             "role":  "sample",
+                             "width":  302,
+                             "height":  422
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-047-imagem-06.webp",
+                             "page":  47,
+                             "sequence":  6,
+                             "role":  "sample",
+                             "width":  302,
+                             "height":  422
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-047-imagem-08.webp",
+                             "page":  47,
+                             "sequence":  8,
+                             "role":  "sample",
+                             "width":  284,
+                             "height":  422
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-047-imagem-09.webp",
+                             "page":  47,
+                             "sequence":  9,
+                             "role":  "sample",
+                             "width":  302,
+                             "height":  422
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-047-imagem-10.webp",
+                             "page":  47,
+                             "sequence":  10,
+                             "role":  "sample",
+                             "width":  301,
+                             "height":  423
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-047-imagem-12.webp",
+                             "page":  47,
+                             "sequence":  12,
+                             "role":  "sample",
+                             "width":  285,
+                             "height":  423
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-047-imagem-13.webp",
+                             "page":  47,
+                             "sequence":  13,
+                             "role":  "sample",
+                             "width":  302,
+                             "height":  423
+                         },
+                         {
+                             "src":  "/catalogo/editorial/compacstones/pagina-047-imagem-14.webp",
+                             "page":  47,
+                             "sequence":  14,
+                             "role":  "sample",
+                             "width":  301,
+                             "height":  423
+                         }
+                     ],
+    "onix":  [
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-048-imagem-01.webp",
+                     "page":  48,
+                     "sequence":  1,
+                     "role":  "feature",
+                     "width":  1488,
+                     "height":  2104
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-01.webp",
+                     "page":  49,
+                     "sequence":  1,
+                     "role":  "feature",
+                     "width":  1487,
+                     "height":  1126
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-02.webp",
+                     "page":  49,
+                     "sequence":  2,
+                     "role":  "sample",
+                     "width":  445,
+                     "height":  346
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-03.webp",
+                     "page":  49,
+                     "sequence":  3,
+                     "role":  "sample",
+                     "width":  446,
+                     "height":  346
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-05.webp",
+                     "page":  49,
+                     "sequence":  5,
+                     "role":  "sample",
+                     "width":  440,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-07.webp",
+                     "page":  49,
+                     "sequence":  7,
+                     "role":  "sample",
+                     "width":  443,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-10.webp",
+                     "page":  49,
+                     "sequence":  10,
+                     "role":  "sample",
+                     "width":  442,
+                     "height":  344
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-12.webp",
+                     "page":  49,
+                     "sequence":  12,
+                     "role":  "sample",
+                     "width":  447,
+                     "height":  312
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-15.webp",
+                     "page":  49,
+                     "sequence":  15,
+                     "role":  "sample",
+                     "width":  425,
+                     "height":  292
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-049-imagem-17.webp",
+                     "page":  49,
+                     "sequence":  17,
+                     "role":  "sample",
+                     "width":  441,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-01.webp",
+                     "page":  50,
+                     "sequence":  1,
+                     "role":  "feature",
+                     "width":  1486,
+                     "height":  1482
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-03.webp",
+                     "page":  50,
+                     "sequence":  3,
+                     "role":  "sample",
+                     "width":  440,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-05.webp",
+                     "page":  50,
+                     "sequence":  5,
+                     "role":  "sample",
+                     "width":  442,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-06.webp",
+                     "page":  50,
+                     "sequence":  6,
+                     "role":  "sample",
+                     "width":  445,
+                     "height":  347
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-09.webp",
+                     "page":  50,
+                     "sequence":  9,
+                     "role":  "sample",
+                     "width":  446,
+                     "height":  346
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-10.webp",
+                     "page":  50,
+                     "sequence":  10,
+                     "role":  "sample",
+                     "width":  440,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-12.webp",
+                     "page":  50,
+                     "sequence":  12,
+                     "role":  "sample",
+                     "width":  442,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-15.webp",
+                     "page":  50,
+                     "sequence":  15,
+                     "role":  "sample",
+                     "width":  442,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-050-imagem-16.webp",
+                     "page":  50,
+                     "sequence":  16,
+                     "role":  "sample",
+                     "width":  446,
+                     "height":  346
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-051-imagem-01.webp",
+                     "page":  51,
+                     "sequence":  1,
+                     "role":  "feature",
+                     "width":  1487,
+                     "height":  2104
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-051-imagem-02.webp",
+                     "page":  51,
+                     "sequence":  2,
+                     "role":  "sample",
+                     "width":  445,
+                     "height":  347
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-051-imagem-04.webp",
+                     "page":  51,
+                     "sequence":  4,
+                     "role":  "sample",
+                     "width":  441,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-051-imagem-07.webp",
+                     "page":  51,
+                     "sequence":  7,
+                     "role":  "sample",
+                     "width":  442,
+                     "height":  342
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-051-imagem-08.webp",
+                     "page":  51,
+                     "sequence":  8,
+                     "role":  "sample",
+                     "width":  442,
+                     "height":  343
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-051-imagem-11.webp",
+                     "page":  51,
+                     "sequence":  11,
+                     "role":  "sample",
+                     "width":  446,
+                     "height":  346
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-051-imagem-13.webp",
+                     "page":  51,
+                     "sequence":  13,
+                     "role":  "sample",
+                     "width":  446,
+                     "height":  346
+                 },
+                 {
+                     "src":  "/catalogo/editorial/onix/pagina-051-imagem-14.webp",
+                     "page":  51,
+                     "sequence":  14,
+                     "role":  "sample",
+                     "width":  442,
+                     "height":  342
+                 }
+             ],
+    "marmores":  [
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-052-imagem-01.webp",
+                         "page":  52,
+                         "sequence":  1,
+                         "role":  "feature",
+                         "width":  1488,
+                         "height":  2104
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-02.webp",
+                         "page":  53,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-03.webp",
+                         "page":  53,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-04.webp",
+                         "page":  53,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-05.webp",
+                         "page":  53,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-06.webp",
+                         "page":  53,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-07.webp",
+                         "page":  53,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-08.webp",
+                         "page":  53,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-09.webp",
+                         "page":  53,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-10.webp",
+                         "page":  53,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  340
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-11.webp",
+                         "page":  53,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-12.webp",
+                         "page":  53,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-13.webp",
+                         "page":  53,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-053-imagem-14.webp",
+                         "page":  53,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-02.webp",
+                         "page":  54,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-03.webp",
+                         "page":  54,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-04.webp",
+                         "page":  54,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-05.webp",
+                         "page":  54,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-06.webp",
+                         "page":  54,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-07.webp",
+                         "page":  54,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-08.webp",
+                         "page":  54,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-09.webp",
+                         "page":  54,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-10.webp",
+                         "page":  54,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-11.webp",
+                         "page":  54,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-12.webp",
+                         "page":  54,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-13.webp",
+                         "page":  54,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-054-imagem-14.webp",
+                         "page":  54,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-02.webp",
+                         "page":  55,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-03.webp",
+                         "page":  55,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-04.webp",
+                         "page":  55,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  344
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-05.webp",
+                         "page":  55,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  341
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-06.webp",
+                         "page":  55,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-07.webp",
+                         "page":  55,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  344
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-08.webp",
+                         "page":  55,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-09.webp",
+                         "page":  55,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-10.webp",
+                         "page":  55,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-12.webp",
+                         "page":  55,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  244,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-13.webp",
+                         "page":  55,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  219,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-055-imagem-14.webp",
+                         "page":  55,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-02.webp",
+                         "page":  56,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-03.webp",
+                         "page":  56,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-04.webp",
+                         "page":  56,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-05.webp",
+                         "page":  56,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-06.webp",
+                         "page":  56,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-07.webp",
+                         "page":  56,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-08.webp",
+                         "page":  56,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  244,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-09.webp",
+                         "page":  56,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-11.webp",
+                         "page":  56,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-12.webp",
+                         "page":  56,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-13.webp",
+                         "page":  56,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-056-imagem-14.webp",
+                         "page":  56,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-02.webp",
+                         "page":  57,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-03.webp",
+                         "page":  57,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-04.webp",
+                         "page":  57,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-05.webp",
+                         "page":  57,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-06.webp",
+                         "page":  57,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-07.webp",
+                         "page":  57,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-08.webp",
+                         "page":  57,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  232,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-10.webp",
+                         "page":  57,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-11.webp",
+                         "page":  57,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-12.webp",
+                         "page":  57,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-13.webp",
+                         "page":  57,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-057-imagem-14.webp",
+                         "page":  57,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-02.webp",
+                         "page":  58,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-03.webp",
+                         "page":  58,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-04.webp",
+                         "page":  58,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-05.webp",
+                         "page":  58,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-06.webp",
+                         "page":  58,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-07.webp",
+                         "page":  58,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-08.webp",
+                         "page":  58,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  244,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-10.webp",
+                         "page":  58,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-11.webp",
+                         "page":  58,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-12.webp",
+                         "page":  58,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-13.webp",
+                         "page":  58,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-058-imagem-14.webp",
+                         "page":  58,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-02.webp",
+                         "page":  59,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-03.webp",
+                         "page":  59,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-04.webp",
+                         "page":  59,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-05.webp",
+                         "page":  59,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-06.webp",
+                         "page":  59,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-07.webp",
+                         "page":  59,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-08.webp",
+                         "page":  59,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-09.webp",
+                         "page":  59,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-10.webp",
+                         "page":  59,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-11.webp",
+                         "page":  59,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-12.webp",
+                         "page":  59,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-13.webp",
+                         "page":  59,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  244,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-059-imagem-14.webp",
+                         "page":  59,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-02.webp",
+                         "page":  60,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-03.webp",
+                         "page":  60,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-04.webp",
+                         "page":  60,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-05.webp",
+                         "page":  60,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-06.webp",
+                         "page":  60,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-07.webp",
+                         "page":  60,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-08.webp",
+                         "page":  60,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-09.webp",
+                         "page":  60,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-10.webp",
+                         "page":  60,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-11.webp",
+                         "page":  60,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-12.webp",
+                         "page":  60,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-13.webp",
+                         "page":  60,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-060-imagem-14.webp",
+                         "page":  60,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-02.webp",
+                         "page":  61,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-03.webp",
+                         "page":  61,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-04.webp",
+                         "page":  61,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-05.webp",
+                         "page":  61,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-06.webp",
+                         "page":  61,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-07.webp",
+                         "page":  61,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-08.webp",
+                         "page":  61,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-09.webp",
+                         "page":  61,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-10.webp",
+                         "page":  61,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-11.webp",
+                         "page":  61,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-12.webp",
+                         "page":  61,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-13.webp",
+                         "page":  61,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-061-imagem-14.webp",
+                         "page":  61,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-062-imagem-02.webp",
+                         "page":  62,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-062-imagem-03.webp",
+                         "page":  62,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  244,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-062-imagem-04.webp",
+                         "page":  62,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-062-imagem-05.webp",
+                         "page":  62,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  244,
+                         "height":  344
+                     },
+                     {
+                         "src":  "/catalogo/editorial/marmores/pagina-062-imagem-06.webp",
+                         "page":  62,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     }
+                 ],
+    "limestones":  [
+                       {
+                           "src":  "/catalogo/editorial/limestones/pagina-063-imagem-01.webp",
+                           "page":  63,
+                           "sequence":  1,
+                           "role":  "feature",
+                           "width":  1488,
+                           "height":  2104
+                       },
+                       {
+                           "src":  "/catalogo/editorial/limestones/pagina-064-imagem-02.webp",
+                           "page":  64,
+                           "sequence":  2,
+                           "role":  "feature",
+                           "width":  1487,
+                           "height":  531
+                       },
+                       {
+                           "src":  "/catalogo/editorial/limestones/pagina-064-imagem-03.webp",
+                           "page":  64,
+                           "sequence":  3,
+                           "role":  "sample",
+                           "width":  408,
+                           "height":  571
+                       },
+                       {
+                           "src":  "/catalogo/editorial/limestones/pagina-064-imagem-04.webp",
+                           "page":  64,
+                           "sequence":  4,
+                           "role":  "sample",
+                           "width":  408,
+                           "height":  572
+                       },
+                       {
+                           "src":  "/catalogo/editorial/limestones/pagina-064-imagem-05.webp",
+                           "page":  64,
+                           "sequence":  5,
+                           "role":  "sample",
+                           "width":  428,
+                           "height":  599
+                       },
+                       {
+                           "src":  "/catalogo/editorial/limestones/pagina-064-imagem-06.webp",
+                           "page":  64,
+                           "sequence":  6,
+                           "role":  "sample",
+                           "width":  376,
+                           "height":  560
+                       },
+                       {
+                           "src":  "/catalogo/editorial/limestones/pagina-064-imagem-07.webp",
+                           "page":  64,
+                           "sequence":  7,
+                           "role":  "sample",
+                           "width":  376,
+                           "height":  559
+                       }
+                   ],
+    "infinity":  [
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-065-imagem-01.webp",
+                         "page":  65,
+                         "sequence":  1,
+                         "role":  "feature",
+                         "width":  1488,
+                         "height":  2104
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-02.webp",
+                         "page":  66,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-03.webp",
+                         "page":  66,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  244,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-04.webp",
+                         "page":  66,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  244,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-05.webp",
+                         "page":  66,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-06.webp",
+                         "page":  66,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-07.webp",
+                         "page":  66,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-08.webp",
+                         "page":  66,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-10.webp",
+                         "page":  66,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-11.webp",
+                         "page":  66,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-12.webp",
+                         "page":  66,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-13.webp",
+                         "page":  66,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  243,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-066-imagem-14.webp",
+                         "page":  66,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-02.webp",
+                         "page":  67,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-03.webp",
+                         "page":  67,
+                         "sequence":  3,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-04.webp",
+                         "page":  67,
+                         "sequence":  4,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-05.webp",
+                         "page":  67,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-06.webp",
+                         "page":  67,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  342
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-07.webp",
+                         "page":  67,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-08.webp",
+                         "page":  67,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-09.webp",
+                         "page":  67,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-10.webp",
+                         "page":  67,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-11.webp",
+                         "page":  67,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-12.webp",
+                         "page":  67,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-13.webp",
+                         "page":  67,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-067-imagem-14.webp",
+                         "page":  67,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-02.webp",
+                         "page":  68,
+                         "sequence":  2,
+                         "role":  "feature",
+                         "width":  1487,
+                         "height":  531
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-05.webp",
+                         "page":  68,
+                         "sequence":  5,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-06.webp",
+                         "page":  68,
+                         "sequence":  6,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-07.webp",
+                         "page":  68,
+                         "sequence":  7,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-08.webp",
+                         "page":  68,
+                         "sequence":  8,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-09.webp",
+                         "page":  68,
+                         "sequence":  9,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-10.webp",
+                         "page":  68,
+                         "sequence":  10,
+                         "role":  "sample",
+                         "width":  231,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-11.webp",
+                         "page":  68,
+                         "sequence":  11,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-12.webp",
+                         "page":  68,
+                         "sequence":  12,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-13.webp",
+                         "page":  68,
+                         "sequence":  13,
+                         "role":  "sample",
+                         "width":  245,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-068-imagem-14.webp",
+                         "page":  68,
+                         "sequence":  14,
+                         "role":  "sample",
+                         "width":  230,
+                         "height":  343
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-069-imagem-01.webp",
+                         "page":  69,
+                         "sequence":  1,
+                         "role":  "feature",
+                         "width":  1488,
+                         "height":  2104
+                     },
+                     {
+                         "src":  "/catalogo/editorial/infinity/pagina-069-imagem-02.webp",
+                         "page":  69,
+                         "sequence":  2,
+                         "role":  "sample",
+                         "width":  351,
+                         "height":  366
+                     }
+                 ],
+    "crystal":  [
+                    {
+                        "src":  "/catalogo/editorial/crystal/pagina-070-imagem-01.webp",
+                        "page":  70,
+                        "sequence":  1,
+                        "role":  "feature",
+                        "width":  1466,
+                        "height":  2104
+                    },
+                    {
+                        "src":  "/catalogo/editorial/crystal/pagina-071-imagem-02.webp",
+                        "page":  71,
+                        "sequence":  2,
+                        "role":  "feature",
+                        "width":  1488,
+                        "height":  791
+                    },
+                    {
+                        "src":  "/catalogo/editorial/crystal/pagina-071-imagem-03.webp",
+                        "page":  71,
+                        "sequence":  3,
+                        "role":  "feature",
+                        "width":  1487,
+                        "height":  736
+                    },
+                    {
+                        "src":  "/catalogo/editorial/crystal/pagina-071-imagem-04.webp",
+                        "page":  71,
+                        "sequence":  4,
+                        "role":  "feature",
+                        "width":  392,
+                        "height":  197
+                    },
+                    {
+                        "src":  "/catalogo/editorial/crystal/pagina-071-imagem-05.webp",
+                        "page":  71,
+                        "sequence":  5,
+                        "role":  "feature",
+                        "width":  392,
+                        "height":  197
+                    }
+                ]
+}

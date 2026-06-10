@@ -41,11 +41,6 @@
       "sha256": "d0b3c0c68ff196f98d3b80731661033ab3962ab4c15b67f278b98de2236226ce"
     },
     {
-      "path": "styles.css",
-      "size": 45374,
-      "sha256": "3b08122ea9b569858a1b5600792d60d467c702e6192d359f54978f438c2bcc75"
-    },
-    {
       "path": "script.js",
       "size": 5635,
       "sha256": "4455de0009125fd52cf0dcb6440f20c9ff36a3028afb73b8b778fde1e73c199b"
@@ -67,19 +62,35 @@
     }
   ],
   "copies": [
-    ["styles.css", "app/globals.css"],
-    ["assets/hero-cozinha.webp", "public/assets/hero-cozinha.webp"],
-    ["assets/banho-quartzito.webp", "public/assets/banho-quartzito.webp"],
-    ["assets/escada-calcario.webp", "public/assets/escada-calcario.webp"]
+    [
+      "assets/hero-cozinha.webp",
+      "public/assets/hero-cozinha.webp"
+    ],
+    [
+      "assets/banho-quartzito.webp",
+      "public/assets/banho-quartzito.webp"
+    ],
+    [
+      "assets/escada-calcario.webp",
+      "public/assets/escada-calcario.webp"
+    ]
   ],
   "routes": [
-    ["index.html", "app/page.jsx"],
-    ["marmores.html", "app/marmores.html/page.jsx"],
-    ["quartzitos.html", "app/quartzitos.html/page.jsx"],
-    ["granitos.html", "app/granitos.html/page.jsx"],
-    ["superficies-especiais.html", "app/superficies-especiais.html/page.jsx"],
-    ["execucao.html", "app/execucao.html/page.jsx"],
-    ["projeto-azul-imperial.html", "app/projeto-azul-imperial.html/page.jsx"],
-    ["projeto-escada-calcario.html", "app/projeto-escada-calcario.html/page.jsx"]
+    [
+      "index.html",
+      "app/page.jsx"
+    ],
+    [
+      "execucao.html",
+      "app/execucao.html/page.jsx"
+    ],
+    [
+      "projeto-azul-imperial.html",
+      "app/projeto-azul-imperial.html/page.jsx"
+    ],
+    [
+      "projeto-escada-calcario.html",
+      "app/projeto-escada-calcario.html/page.jsx"
+    ]
   ]
 }

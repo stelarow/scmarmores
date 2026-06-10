@@ -1,44 +1,46 @@
 import Link from 'next/link';
 import { CatalogContact, CatalogFooter, CatalogHeader } from './catalog-chrome';
-import { catalogCategories, catalogPageImage } from './catalog-data';
+import { catalogCategories } from './catalog-data';
 
 export const metadata = {
-  title: 'Catálogo de materiais | SC Mármores',
-  description: 'Explore as categorias e os modelos apresentados no catálogo SC Mármores 2025.',
+  title: 'Curadoria de materiais | SC Mármores',
+  description: 'Explore mármores, granitos e superfícies com a curadoria da SC Mármores.',
 };
 
 export default function CatalogPage() {
+  const hero = catalogCategories.find(({ slug }) => slug === 'quartzitos').hero;
+
   return (
     <>
       <CatalogHeader />
       <main>
         <section className="catalog-hero">
-          <img src="/catalogo/quartzitos/pagina-33.webp" alt="" />
+          <img src={hero.src} alt="" />
           <div className="catalog-hero-content">
-            <p>Catálogo SC Mármores · 2025</p>
-            <h1>Matéria em muitas<br />formas de <em>expressão.</em></h1>
+            <p>Curadoria de materiais</p>
+            <h1>Matéria escolhida<br />com <em>intenção.</em></h1>
             <span>
-              Explore as linhas disponíveis na SC Mármores. Cada categoria reúne os modelos apresentados em nosso
-              catálogo, com disponibilidade confirmada durante o atendimento.
+              Cada superfície responde de forma própria à luz, ao uso e ao desenho do ambiente. Nossa seleção começa
+              pelo que o projeto precisa comunicar.
             </span>
           </div>
         </section>
 
         <section className="catalog-intro">
-          <p>Dez categorias · mais de 200 produtos</p>
+          <p>Dez famílias · mais de 200 modelos</p>
           <div>
-            <h2>Um catálogo amplo para escolhas bem orientadas.</h2>
+            <h2>Um repertório amplo, apresentado com clareza.</h2>
             <p>
-              As categorias abaixo seguem a mesma organização do catálogo SC Mármores. Entre em cada seleção para
-              conhecer todos os modelos reunidos naquela linha.
+              Explore as famílias disponíveis e observe cores, movimentos e possibilidades de aplicação. Na etapa de
+              especificação, nossa equipe orienta a escolha e confirma a disponibilidade.
             </p>
           </div>
         </section>
 
         <section className="catalog-index" aria-labelledby="catalog-index-title">
           <div className="catalog-index-heading">
-            <h2 id="catalog-index-title">Explore o catálogo.</h2>
-            <p>Nomes, imagens e descrições foram preservados conforme o material original.</p>
+            <h2 id="catalog-index-title">Explore por matéria.</h2>
+            <p>Cada seleção reúne referências visuais e modelos para iniciar uma conversa sobre o projeto.</p>
           </div>
           <ol className="catalog-category-list">
             {catalogCategories.map((category, index) => (
@@ -46,15 +48,12 @@ export default function CatalogPage() {
                 <Link href={`/catalogo/${category.slug}`}>
                   <span>{String(index + 1).padStart(2, '0')}</span>
                   <div>
+                    <p className="catalog-category-eyebrow">{category.eyebrow}</p>
                     <h3>{category.name}</h3>
                     <p>{category.description}</p>
                   </div>
                   <figure>
-                    <img
-                      src={catalogPageImage(category, category.pages[Math.min(1, category.pages.length - 1)])}
-                      alt={`Prévia da categoria ${category.name}`}
-                      loading="lazy"
-                    />
+                    <img src={category.preview.src} alt="" loading="lazy" />
                   </figure>
                   <b aria-hidden="true">↗</b>
                 </Link>

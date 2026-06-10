@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "node --require ./scripts/node24-readlink-fix.cjs node_modules/next/dist/bin/next dev",
-    "prebuild": "npm run verify:preservation",
+    "prebuild": "npm run verify:preservation && npm run verify:catalog",
     "build": "node --require ./scripts/node24-readlink-fix.cjs node_modules/next/dist/bin/next build",
     "start": "node --require ./scripts/node24-readlink-fix.cjs node_modules/next/dist/bin/next start",
-    "verify:preservation": "node scripts/verify-site-preservation.cjs"
+    "verify:preservation": "node scripts/verify-site-preservation.cjs",
+    "verify:catalog": "node scripts/verify-catalog-editorial.cjs"
   },
   "dependencies": {
     "next": "14.2.35",

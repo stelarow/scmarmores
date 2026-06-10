@@ -1,7 +1,7 @@
-import LegacyPage from '../legacy-page';
+import LegacyRedirect from '../legacy-redirect';
 
 export const metadata = { title: 'Granitos | SC Mármores' };
 
 export default function Page() {
-  return <LegacyPage filename="granitos.html" />;
+  return <LegacyRedirect href="/catalogo/granitos" />;
 }

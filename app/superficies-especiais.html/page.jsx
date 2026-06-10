@@ -1,7 +1,7 @@
-import LegacyPage from '../legacy-page';
+import LegacyRedirect from '../legacy-redirect';
 
-export const metadata = { title: 'Superfícies especiais | SC Mármores' };
+export const metadata = { title: 'Curadoria de materiais | SC Mármores' };
 
 export default function Page() {
-  return <LegacyPage filename="superficies-especiais.html" />;
+  return <LegacyRedirect href="/catalogo" />;
 }
