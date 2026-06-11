@@ -1,10 +1,18 @@
 const fs = require('node:fs');
 const path = require('node:path');
+const crypto = require('node:crypto');
 
 const root = path.resolve(__dirname, '..');
 const data = require(path.join(root, 'app/catalogo/catalog-assets.json'));
 const failures = [];
 const seen = new Set();
+const contentHashes = new Map();
+const allowedSourceDuplicates = new Set([
+  [
+    '/catalogo/editorial/dekton/pagina-017-amostra-03.webp',
+    '/catalogo/editorial/dekton/pagina-018-amostra-03.webp',
+  ].sort().join('|'),
+]);
 let assetCount = 0;
 
 for (const [category, assets] of Object.entries(data)) {
@@ -16,6 +24,16 @@ for (const [category, assets] of Object.entries(data)) {
     if (!fs.existsSync(absolutePath)) failures.push(`Imagem ausente: ${asset.src}`);
     if (seen.has(asset.src)) failures.push(`Imagem duplicada no manifesto: ${asset.src}`);
     seen.add(asset.src);
+    if (fs.existsSync(absolutePath)) {
+      const hash = crypto.createHash('sha256').update(fs.readFileSync(absolutePath)).digest('hex');
+      if (contentHashes.has(hash)) {
+        const pair = [contentHashes.get(hash), asset.src].sort().join('|');
+        if (!allowedSourceDuplicates.has(pair)) failures.push(`Duplicate image content: ${pair}`);
+      } else {
+        contentHashes.set(hash, asset.src);
+      }
+    }
+    if (!asset.name) failures.push(`Imagem sem nome explícito: ${asset.src}`);
   }
 }
 

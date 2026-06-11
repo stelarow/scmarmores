@@ -34,3 +34,6 @@ Thumbs.db
 .idea/
 
 .vercel
+
+# Intermediate catalog extraction files
+catalogo-imagens-extraidas/
