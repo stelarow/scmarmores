@@ -14,18 +14,24 @@ export const generateMetadata = ({ params }) => {
   };
 };
 
-const Asset = ({ asset, category, priority = false }) => (
-  <article className={`catalog-asset catalog-asset-${asset.role}`}>
-    <figure style={asset.role === 'feature' ? { aspectRatio: `${asset.width} / ${asset.height}` } : undefined}>
-      <img src={asset.src} alt={`${asset.name}, referência de ${category.shortName || category.name}`} loading={priority ? 'eager' : 'lazy'} />
-    </figure>
-    <div>
-      <p>{asset.role === 'feature' ? 'Referência de aplicação' : category.eyebrow}</p>
-      <h3>{asset.name}</h3>
-      <span>{asset.description}</span>
-    </div>
-  </article>
-);
+const Asset = ({ asset, category, priority = false }) => {
+  const orientationClass = asset.role === 'feature' && asset.height > asset.width
+    ? ' catalog-asset-portrait'
+    : '';
+
+  return (
+    <article className={`catalog-asset catalog-asset-${asset.role}${orientationClass}`}>
+      <figure style={asset.role === 'feature' ? { aspectRatio: `${asset.width} / ${asset.height}` } : undefined}>
+        <img src={asset.src} alt={`${asset.name}, referência de ${category.shortName || category.name}`} loading={priority ? 'eager' : 'lazy'} />
+      </figure>
+      <div>
+        <p>{asset.role === 'feature' ? 'Referência de aplicação' : category.eyebrow}</p>
+        <h3>{asset.name}</h3>
+        <span>{asset.description}</span>
+      </div>
+    </article>
+  );
+};
 
 export default function CatalogCategoryPage({ params }) {
   const category = getCatalogCategory(params.slug);

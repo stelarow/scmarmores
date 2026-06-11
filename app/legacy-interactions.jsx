@@ -17,6 +17,32 @@ export default function LegacyInteractions({ bodyClass }) {
       window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
     }
 
+    const heroVideo = document.querySelector('.hero-video');
+    let removeHeroPlaybackListeners = () => {};
+    if (heroVideo) {
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const updateHeroPlayback = () => {
+        heroVideo.defaultPlaybackRate = 1;
+        heroVideo.playbackRate = 1;
+
+        if (reducedMotion.matches) {
+          heroVideo.pause();
+          heroVideo.currentTime = 0;
+          return;
+        }
+
+        heroVideo.play().catch(() => {});
+      };
+
+      heroVideo.addEventListener('loadedmetadata', updateHeroPlayback);
+      reducedMotion.addEventListener('change', updateHeroPlayback);
+      removeHeroPlaybackListeners = () => {
+        heroVideo.removeEventListener('loadedmetadata', updateHeroPlayback);
+        reducedMotion.removeEventListener('change', updateHeroPlayback);
+      };
+      updateHeroPlayback();
+    }
+
     const toggle = document.querySelector('.menu-toggle');
     const nav = document.querySelector('.desktop-nav');
     const header = document.querySelector('.site-header');
@@ -70,6 +96,38 @@ export default function LegacyInteractions({ bodyClass }) {
     const year = document.querySelector('#year');
     if (year) year.textContent = new Date().getFullYear();
 
+    const formatPhone = (input) => {
+      const digits = input.value.replace(/\D/g, '').slice(0, 11);
+      const areaCode = digits.slice(0, 2);
+      const firstPart = digits.length > 10 ? digits.slice(2, 7) : digits.slice(2, 6);
+      const lastPart = digits.length > 10 ? digits.slice(7) : digits.slice(6);
+      input.value = [
+        areaCode ? `(${areaCode}` : '',
+        areaCode.length === 2 ? ') ' : '',
+        firstPart,
+        lastPart ? `-${lastPart}` : '',
+      ].join('');
+    };
+
+    const contactForm = document.querySelector('#contact-form');
+    if (contactForm) {
+      const phoneInput = contactForm.elements.telefone;
+      listen(phoneInput, 'input', () => formatPhone(phoneInput));
+      listen(contactForm, 'submit', (event) => {
+        event.preventDefault();
+        if (!contactForm.checkValidity()) return contactForm.reportValidity();
+        const data = new FormData(contactForm);
+        const message = [
+          'Olá, gostaria de falar com a SC Mármores.',
+          '',
+          `Nome: ${data.get('nome')}`,
+          `Telefone: ${data.get('telefone')}`,
+          `Observação: ${data.get('observacao') || 'Não informada'}`,
+        ].join('\n');
+        window.open(`https://wa.me/554833692112?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+      });
+    }
+
     const projectDialog = document.querySelector('#project-dialog');
     const projectForm = document.querySelector('#project-form');
     if (projectDialog && projectForm) {
@@ -101,18 +159,7 @@ export default function LegacyInteractions({ bodyClass }) {
       listen(projectForm.querySelector('.form-back'), 'click', () => setStep(1));
 
       const phoneInput = projectForm.elements.telefone;
-      listen(phoneInput, 'input', () => {
-        const digits = phoneInput.value.replace(/\D/g, '').slice(0, 11);
-        const areaCode = digits.slice(0, 2);
-        const firstPart = digits.length > 10 ? digits.slice(2, 7) : digits.slice(2, 6);
-        const lastPart = digits.length > 10 ? digits.slice(7) : digits.slice(6);
-        phoneInput.value = [
-          areaCode ? `(${areaCode}` : '',
-          areaCode.length === 2 ? ') ' : '',
-          firstPart,
-          lastPart ? `-${lastPart}` : '',
-        ].join('');
-      });
+      listen(phoneInput, 'input', () => formatPhone(phoneInput));
 
       listen(projectForm, 'submit', (event) => {
         event.preventDefault();
@@ -140,6 +187,10 @@ export default function LegacyInteractions({ bodyClass }) {
 
     return () => {
       listeners.forEach((remove) => remove());
+      removeHeroPlaybackListeners();
+      if (heroVideo) {
+        heroVideo.pause();
+      }
       document.body.className = '';
     };
   }, [bodyClass]);

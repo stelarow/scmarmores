@@ -3,10 +3,7 @@ import LegacyInteractions from '../legacy-interactions';
 
 const Brand = ({ footer = false }) => (
   <Link className={`brand${footer ? ' footer-brand' : ''}`} href="/" aria-label="SC Mármores, início">
-    <svg viewBox="0 0 54 54" aria-hidden="true">
-      <path d="M42 10H21C13 10 8 16 8 27s5 17 13 17h21M36 18H23c-4 0-6 3-6 9s2 9 6 9h13M36 18v18" />
-    </svg>
-    <span>SC <b>Mármores</b></span>
+    <img className="brand-logo" src="/assets/sc-marmores-logo.jpg" alt="SC Mármores" />
   </Link>
 );
 
