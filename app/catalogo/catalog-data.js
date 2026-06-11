@@ -180,6 +180,7 @@ const categoryDefinitions = [
   {
     slug: 'limestones',
     name: 'Limestones',
+    desktopHeroSrc: '/catalogo/editorial/limestones/banner-desktop.webp',
     eyebrow: 'Textura serena',
     statement: 'Tons naturais para arquiteturas de leitura calma.',
     description: 'Limestones e travertinos de aparência contida, selecionados para composições que valorizam textura e continuidade.',

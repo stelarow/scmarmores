@@ -39,14 +39,22 @@ export default function CatalogCategoryPage({ params }) {
 
   const currentIndex = catalogCategories.findIndex(({ slug }) => slug === category.slug);
   const nextCategory = catalogCategories[(currentIndex + 1) % catalogCategories.length];
-  const [hero, ...assets] = category.assets;
+  const hero = category.hero;
+  const assets = category.assets.slice(1);
 
   return (
     <>
       <CatalogHeader />
       <main>
         <section className="catalog-category-hero">
-          <img src={hero.src} alt="" />
+          {category.desktopHeroSrc ? (
+            <picture>
+              <source media="(min-width: 601px)" srcSet={category.desktopHeroSrc} />
+              <img src={hero.src} alt="" />
+            </picture>
+          ) : (
+            <img src={hero.src} alt="" />
+          )}
           <div className="catalog-category-hero-content">
             <p><Link href="/catalogo">Curadoria</Link> · {String(currentIndex + 1).padStart(2, '0')}</p>
             <h1>{category.name}</h1>
