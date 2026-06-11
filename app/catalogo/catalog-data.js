@@ -116,6 +116,15 @@ const featureNameOverrides = {
   '44:5': 'Azul Macaubas',
 };
 
+const categoryHeroSources = {
+  silestones: '/catalogo/editorial/silestones/pagina-004-imagem-02.webp',
+  dekton: '/catalogo/editorial/dekton/pagina-013-imagem-02.webp',
+  marmores: '/catalogo/editorial/marmores/pagina-053-imagem-02.webp',
+  limestones: '/catalogo/editorial/limestones/pagina-064-imagem-02.webp',
+  infinity: '/catalogo/editorial/infinity/pagina-066-imagem-02.webp',
+  crystal: '/catalogo/editorial/crystal/pagina-071-imagem-02.webp',
+};
+
 const categoryDefinitions = [
   {
     slug: 'silestones',
@@ -265,7 +274,9 @@ export const catalogCategories = categoryDefinitions.map((category) => {
   return {
     ...category,
     assets,
-    hero: assets.find((asset) => asset.role === 'feature') || assets[0],
+    hero: assets.find((asset) => asset.src === categoryHeroSources[category.slug])
+      || assets.find((asset) => asset.role === 'feature')
+      || assets[0],
     preview: assets.find((asset) => asset.role === 'sample') || assets[0],
   };
 });
