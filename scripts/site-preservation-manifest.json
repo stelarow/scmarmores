@@ -2,48 +2,48 @@
   "originals": [
     {
       "path": "index.html",
-      "size": 17897,
-      "sha256": "0866bf0cd2e6fdef8ce3be0954b25b69b0d485b5d9f9387439e58f9c50551670"
+      "size": 18180,
+      "sha256": "cbfaef2a42803d2f9b2768de06205b0d2a90eec53e426fda4c4a33b204756af9"
     },
     {
       "path": "marmores.html",
-      "size": 5984,
-      "sha256": "0cf7caf30d20422ba56fe4844562c23091315c707998bc3975a25fc0b1ed435b"
+      "size": 6023,
+      "sha256": "874912ff6fa6497a692da8ce1b7ab7c652694eff24e0d59460f518c2492d8122"
     },
     {
       "path": "quartzitos.html",
-      "size": 5825,
-      "sha256": "51113b1f78791b487845e827726eeac1c7108b37867ddeb4e62110fcbc0d5636"
+      "size": 5841,
+      "sha256": "7dbf39bb1398c6472cda258047e4ee962f82fc0d2fbe29a0ca9a12d6ce03455c"
     },
     {
       "path": "granitos.html",
-      "size": 5730,
-      "sha256": "fa5be56a8ff2a6b3393dce44ffb81552779376c55ac74f11e9983e8d5bf667e1"
+      "size": 5746,
+      "sha256": "a7026f80d7c6411ce69620a17afdc338d6f85f5e33d622114222ea79cfad9d4f"
     },
     {
       "path": "superficies-especiais.html",
-      "size": 5864,
-      "sha256": "63ca6af23214afab9bc8be5e676be2f940d7bc33f37d9d1c40d741737f786dc4"
+      "size": 5880,
+      "sha256": "527ac9f70fa24170c548afcbada442515ac0a8fbacdb9924591e638c271b859b"
     },
     {
       "path": "execucao.html",
-      "size": 7317,
-      "sha256": "4cc5f905eb2d183edc66628c4164a933bbe6cd4b0b412fcfd8d6799256c3b492"
+      "size": 7411,
+      "sha256": "c6a54b101608c02d3db27c1da5bb1c913f497d6f81e3507b3714aba1736ed484"
     },
     {
       "path": "projeto-azul-imperial.html",
-      "size": 6556,
-      "sha256": "b419f08d5628bb7d42f11955eca7467a7d67780472c434f42d90ede136272d4d"
+      "size": 6642,
+      "sha256": "a738db809ab9d748ed207c87b9129f2c997e1a63b8e909b225d52f7877f4970a"
     },
     {
       "path": "projeto-escada-calcario.html",
-      "size": 6615,
-      "sha256": "d0b3c0c68ff196f98d3b80731661033ab3962ab4c15b67f278b98de2236226ce"
+      "size": 6701,
+      "sha256": "5675d6d940ab10c5b92aea9d79e766b4ee11ea882fa31e885b78db373e9b3fee"
     },
     {
       "path": "script.js",
-      "size": 5635,
-      "sha256": "4455de0009125fd52cf0dcb6440f20c9ff36a3028afb73b8b778fde1e73c199b"
+      "size": 5793,
+      "sha256": "d3b324bd962b9dc08258e87042b04aaac9286a64090676e6ba2feec246b3fc04"
     },
     {
       "path": "assets/hero-cozinha.webp",

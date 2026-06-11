@@ -6,3 +6,8 @@ dist/
 .deps-clean/
 .git/
 *.log
+*.pdf
+SCMarmores-backup*/
+catalogo-imagens-extraidas/
+plano-hierarquia-conteudo-catalogo.html
+public/catalogo/_contact-*.jpg
