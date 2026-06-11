@@ -128,9 +128,11 @@ for ($page = 1; $page -le $pageCount; $page++) {
         }
         $isolated.Save($isolatedSvg)
 
-        & magick -background white -density $Density $isolatedSvg `
-            -alpha set -channel RGBA -fuzz "8%" -fill none -draw "color 0,0 floodfill" `
-            -trim +repage $destination
+        # Render the isolated SVG group over transparency. Flood-filling the
+        # corner color also removed legitimate light or dark areas connected
+        # to photo edges, leaving visible holes in application images.
+        & magick -background none -density $Density $isolatedSvg `
+            -alpha on -trim +repage $destination
         if ($LASTEXITCODE -ne 0) {
             throw "Falha ao renderizar $filename."
         }

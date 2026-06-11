@@ -4,11 +4,24 @@ import { cache } from 'react';
 import LegacyInteractions from './legacy-interactions';
 import { catalogCategories } from './catalogo/catalog-data';
 
+const materialImageOverrides = {
+  silestones: '/catalogo/editorial/silestones/pagina-004-imagem-02.webp',
+  dekton: '/catalogo/editorial/dekton/pagina-013-imagem-02.webp',
+  granitos: '/catalogo/editorial/granitos/pagina-024-imagem-01.webp',
+  quartzitos: '/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp',
+  compacstones: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
+  onix: '/catalogo/editorial/onix/pagina-048-imagem-01.webp',
+  marmores: '/catalogo/editorial/marmores/pagina-053-imagem-02.webp',
+  limestones: '/catalogo/editorial/limestones/pagina-064-imagem-02.webp',
+  infinity: '/catalogo/editorial/infinity/pagina-066-imagem-02.webp',
+  crystal: '/catalogo/editorial/crystal/pagina-071-imagem-02.webp',
+};
+
 const materialGallery = catalogCategories
   .map(
-    (category, index) => `
-      <a class="material-tile${index === 0 ? ' material-tile-featured' : ''}" href="/catalogo/${category.slug}">
-        <img src="${category.preview.src}" alt="Referência visual de ${category.shortName || category.name}" loading="lazy" />
+    (category) => `
+      <a class="material-tile" href="/catalogo/${category.slug}">
+        <img src="${materialImageOverrides[category.slug] || category.hero.src}" alt="Ambiente com aplicação de ${category.shortName || category.name}" loading="lazy" />
         <span class="material-tile-shade"></span>
         <span class="material-tile-meta">${category.eyebrow}</span>
         <strong>${category.shortName || category.name}</strong>
@@ -57,6 +70,13 @@ const readLegacyPage = cache((filename) => {
         '<a class="material" href="/catalogo" data-material="Catálogo completo" data-detail="Dez categorias reunidas conforme o catálogo SC Mármores 2025." data-color="oklch(0.82 0.11 61)">',
       )
       .replace('<span>04</span><strong>Superfícies especiais</strong><i>↗</i>', '<span>04</span><strong>Catálogo completo</strong><i>↗</i>');
+
+    const materialsMatch = html.match(/<section class="materials"[\s\S]*?<\/section>/i);
+    if (materialsMatch) {
+      html = html
+        .replace(materialsMatch[0], '')
+        .replace(/(<section class="hero"[\s\S]*?<\/section>)/i, `$1${materialsMatch[0]}`);
+    }
   }
 
   if (filename.startsWith('projeto-')) {

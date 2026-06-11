@@ -1453,6 +1453,16 @@
       "name": "Preto Via Láctea"
     },
     {
+      "src": "/catalogo/editorial/granitos/pagina-027-imagem-03.webp",
+      "page": 27,
+      "sequence": 3,
+      "role": "feature",
+      "width": 305,
+      "height": 97,
+      "name": "Preto Via Láctea",
+      "source": "PDF pagina 27, faixa de amostra ao lado do nome"
+    },
+    {
       "src": "/catalogo/editorial/granitos/pagina-027-imagem-04.webp",
       "page": 27,
       "sequence": 4,
@@ -1795,7 +1805,7 @@
       "name": "Nebula Gray",
       "width": 240,
       "height": 240,
-      "source": "PDF pagina 34, posicao visual 1"
+      "source": "PDF pagina 34, amostra circular original redimensionada sem ampliacao"
     },
     {
       "src": "/catalogo/editorial/quartzitos/pagina-034-amostra-02.webp",

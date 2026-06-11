@@ -89,27 +89,21 @@ h1 em { color: var(--accent); font-weight: 400; }
 .circle-link { margin-top: 2rem; width: 50px; height: 50px; display: grid; place-items: center; border: 1px solid var(--primary); border-radius: 50%; transition: background .3s, color .3s; }
 .circle-link:hover { background: var(--primary); color: white; }
 
-.materials { padding: clamp(7rem, 12vw, 12rem) var(--pad); overflow: hidden; background: var(--surface-light); color: var(--ink-dark); }
-.materials-heading { padding-top: clamp(3rem, 5vw, 5rem); border-top: 1px solid var(--line-light); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem, 8vw, 9rem); align-items: end; }
+.materials { padding: clamp(6rem, 10vw, 9rem) 0 0; overflow: hidden; background: var(--surface-light); color: var(--ink-dark); }
+.materials-heading { margin: 0 var(--pad); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem, 8vw, 9rem); align-items: end; }
 .materials-heading > div:first-child > p, .process-title > p, .contact > div > p { margin: 0 0 2rem; color: var(--primary); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
 .materials-heading h2 { margin: 0; font-family: var(--display); font-size: clamp(3rem, 6.2vw, 6rem); line-height: 1; font-weight: 400; letter-spacing: -.025em; }
 .materials-heading-copy { max-width: 500px; justify-self: end; }
 .materials-heading-copy > p { margin: 0 0 2rem; color: var(--text-soft); line-height: 1.85; }
-.material-gallery { margin-top: clamp(4rem, 7vw, 7rem); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(.75rem, 1.2vw, 1.25rem); }
-.material-tile { position: relative; min-width: 0; aspect-ratio: .76; overflow: hidden; background: var(--orange-deep); color: white; isolation: isolate; }
-.material-tile-featured { grid-column: 1 / -1; aspect-ratio: 2.55 / 1; }
-.material-tile img { position: absolute; inset: 0; height: 100%; object-fit: cover; transform: scale(1.32); transition: transform 1s var(--ease), filter .7s ease; }
-.material-tile-featured img { object-position: center 28%; transform: scale(1.2); }
+.material-gallery { margin-top: clamp(4rem, 7vw, 7rem); display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; background: var(--orange-deep); }
+.material-tile { position: relative; min-width: 0; aspect-ratio: .82; overflow: hidden; background: var(--orange-deep); color: white; isolation: isolate; }
+.material-tile img { position: absolute; inset: 0; height: 100%; object-fit: cover; transition: transform 1s var(--ease), filter .7s ease; }
 .material-tile-shade { position: absolute; z-index: 1; inset: 0; background: linear-gradient(180deg, oklch(0.12 0.01 48 / .02) 42%, oklch(0.12 0.01 48 / .88) 100%); }
 .material-tile-meta, .material-tile strong, .material-tile i { position: absolute; z-index: 2; }
 .material-tile-meta { right: 1rem; bottom: 4.4rem; left: 1rem; color: oklch(0.94 0.025 65); font-size: .6rem; font-weight: 600; letter-spacing: .035em; }
 .material-tile strong { right: 2.75rem; bottom: 1.1rem; left: 1rem; font: 400 clamp(1.45rem, 2vw, 2.25rem)/1.05 var(--display); }
-.material-tile-featured strong { right: 4rem; bottom: clamp(1.4rem, 2.5vw, 2.4rem); left: clamp(1.4rem, 2.5vw, 2.4rem); font-size: clamp(2.8rem, 5vw, 5rem); }
-.material-tile-featured .material-tile-meta { right: auto; bottom: auto; top: clamp(1.4rem, 2.5vw, 2.4rem); left: clamp(1.4rem, 2.5vw, 2.4rem); }
 .material-tile i { right: 1rem; bottom: 1.15rem; font-size: 1rem; font-style: normal; transition: transform .4s var(--ease); }
-.material-tile-featured i { right: clamp(1.4rem, 2.5vw, 2.4rem); bottom: clamp(1.6rem, 2.7vw, 2.6rem); font-size: 1.25rem; }
-.material-tile:hover img, .material-tile:focus-visible img { transform: scale(1.36); filter: saturate(1.08); }
-.material-tile-featured:hover img, .material-tile-featured:focus-visible img { transform: scale(1.24); }
+.material-tile:hover img, .material-tile:focus-visible img { transform: scale(1.025); filter: saturate(1.08); }
 .material-tile:hover i, .material-tile:focus-visible i { transform: translate(3px, -3px); }
 
 .process { background: var(--surface-light); color: var(--ink-dark); padding: clamp(7rem, 12vw, 12rem) var(--pad); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(4rem, 10vw, 12rem); }
@@ -327,8 +321,7 @@ footer p { color: var(--muted); font-size: .65rem; }
   .project-stair .project-info { order: 2; padding: 2rem 0; }
   .project-stair .project-image { max-height: 680px; }
   .materials-heading-copy { max-width: 600px; justify-self: start; }
-  .material-gallery { grid-template-columns: 1fr; }
-  .material-tile-featured { grid-column: auto; aspect-ratio: 1.15; }
+  .material-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .material-hero-content, .material-statement, .material-statement-main, .material-applications { grid-template-columns: 1fr; }
   .material-hero-copy { max-width: 540px; }
   .material-specs-heading { display: block; }
@@ -370,7 +363,8 @@ footer p { color: var(--muted); font-size: .65rem; }
   .project-info { padding: 2rem 1.5rem; }
   .project-featured .project-image { aspect-ratio: .9; }
   .project-info h3 { font-size: 2.5rem; }
-  .material-tile { aspect-ratio: 1 / 1.08; }
+  .material-gallery { grid-template-columns: 1fr; }
+  .material-tile { aspect-ratio: 1.3; }
   .material-tile strong { font-size: 2.2rem; }
   .material-hero { min-height: 720px; }
   .material-hero-content { padding-top: 8rem; gap: 2rem; }
@@ -458,12 +452,13 @@ footer p { color: var(--muted); font-size: .65rem; }
 .catalog-asset { min-width: 0; }
 .catalog-asset-feature { grid-column: 1 / -1; }
 .catalog-asset figure { position: relative; margin: 0; min-height: 0; display: grid; place-items: center; overflow: hidden; background: linear-gradient(145deg, white, var(--orange-wash)); }
-.catalog-asset-sample figure { aspect-ratio: 1; }
-.catalog-asset-feature figure { background: var(--orange-deep); }
+.catalog-asset-sample figure { aspect-ratio: 1; background: white; }
+.catalog-asset-feature figure { background: white; }
 .catalog-asset img { max-width: 100%; max-height: 100%; object-fit: contain; transition: transform .8s var(--ease); }
 .catalog-asset-sample img { width: auto; height: auto; }
 .catalog-asset-feature img { width: 100%; height: 100%; }
 .catalog-asset:hover img { transform: scale(1.025); }
+.catalog-asset-sample:hover img { transform: none; }
 .catalog-asset > div { padding-top: 1.3rem; border-top: 1px solid var(--line-dark); }
 .catalog-asset > div p { margin: 0 0 .65rem; color: var(--primary); font-size: .62rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .catalog-asset h3 { margin: 0; font: 400 clamp(1.55rem, 2.6vw, 2.8rem)/1.08 var(--display); }

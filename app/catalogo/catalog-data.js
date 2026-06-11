@@ -198,9 +198,21 @@ const editorialDescription = (category, asset) => {
   return 'Amostra visual para orientar a primeira seleção. Desenho e tonalidade podem variar entre chapas e lotes.';
 };
 
+const getCategoryAssets = (category) => {
+  if (category.slug === 'quartzitos') {
+    return catalogAssets.quartzitos.filter((asset) => asset.page !== 33 || asset.sequence === 1);
+  }
+  if (category.slug !== 'granitos') return catalogAssets[category.slug];
+
+  return catalogAssets.granitos.filter((asset) => {
+    if (asset.page < 25 || asset.page > 30) return true;
+    return asset.role === 'feature';
+  });
+};
+
 const getAssetRole = (category, asset) => {
   if (category.slug === 'granitos' && asset.page >= 25 && asset.page <= 30) {
-    return asset.sequence % 2 === 0 ? 'feature' : 'sample';
+    return 'sample';
   }
   if (category.slug === 'compacstones' && asset.page > 45) return 'sample';
   if (category.slug === 'onix' && asset.page > 48) return asset.sequence === 1 ? 'feature' : 'sample';
@@ -230,7 +242,7 @@ const getSampleNameIndex = (category, asset, pageIndex) => {
 
 const enrichAssets = (category) => {
   const pageIndexes = new Map();
-  return catalogAssets[category.slug].map((asset, index) => {
+  return getCategoryAssets(category).map((asset, index) => {
     const names = pageNames[asset.page] || [];
     const pageIndex = pageIndexes.get(asset.page) || 0;
     pageIndexes.set(asset.page, pageIndex + 1);
