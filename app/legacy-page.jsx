@@ -30,6 +30,31 @@ const materialGallery = catalogCategories
   )
   .join('');
 
+const trustSection = `<section class="trust" aria-labelledby="trust-title">
+  <div class="trust-intro">
+    <p>Confiança comprovada por quem já escolheu a SC Mármores</p>
+    <h2 id="trust-title">Experiência reconhecida<br />em cada avaliação.</h2>
+    <span>Há 14 anos, orientamos cada escolha e cuidamos de todas as etapas, da definição da pedra à instalação.</span>
+  </div>
+  <dl class="trust-numbers">
+    <div>
+      <dt>Anos de experiência</dt>
+      <dd><strong>14</strong><span>anos criando soluções sob medida</span></dd>
+    </div>
+    <div>
+      <dt>Nota no Google</dt>
+      <dd><strong>4,9</strong><span>de 5 estrelas</span></dd>
+    </div>
+    <div>
+      <dt>Clientes que avaliaram</dt>
+      <dd><strong>284</strong><span>avaliações publicadas no Google</span></dd>
+    </div>
+  </dl>
+  <a class="trust-link" href="https://www.google.com/search?q=SCmarmores" target="_blank" rel="noreferrer">
+    <span>Ler avaliações no Google</span><b aria-hidden="true">↗</b>
+  </a>
+</section>`;
+
 const replaceBrandPlaceholders = (html) => html.replace(
   /(<a\b[^>]*class="[^"]*\bbrand\b[^"]*"[^>]*>)[\s\S]*?<\/a>/gi,
   '$1<img class="brand-logo" src="/assets/sc-marmores-logo.jpg" alt="SC Mármores" /></a>',
@@ -106,7 +131,7 @@ const readLegacyPage = cache((filename) => {
       .replace('Matéria escolhida<br />com intenção.', 'Encontre a pedra certa<br />para o seu ambiente.')
       .replace(
         /<div class="material-gallery"[\s\S]*?<\/div>\s*<\/section>/i,
-        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>`,
+        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>${trustSection}`,
       )
       .replaceAll('href="/marmores.html"', 'href="/catalogo/marmores"')
       .replaceAll('href="/quartzitos.html"', 'href="/catalogo/quartzitos"')
@@ -129,34 +154,6 @@ const readLegacyPage = cache((filename) => {
             <li><span>03</span><div><h3>Produção e instalação</h3><p>Produzimos as peças sob medida e cuidamos da instalação para entregar o ambiente finalizado.</p></div></li>
           </ol>
         </section>`,
-      )
-      .replace(
-        /<section class="contact" id="contato">/i,
-        `<section class="trust" aria-labelledby="trust-title">
-          <div class="trust-intro">
-            <p>Confiança construída projeto após projeto</p>
-            <h2 id="trust-title">Experiência que se confirma<br />na avaliação dos clientes.</h2>
-            <span>Da escolha da pedra à instalação, cada etapa é conduzida com orientação, precisão e cuidado.</span>
-          </div>
-          <dl class="trust-numbers">
-            <div>
-              <dt>Experiência</dt>
-              <dd><strong>14</strong><span>anos transformando pedras em ambientes</span></dd>
-            </div>
-            <div>
-              <dt>Avaliação no Google</dt>
-              <dd><strong>4,9</strong><span>de 5 estrelas</span></dd>
-            </div>
-            <div>
-              <dt>Prova social</dt>
-              <dd><strong>284</strong><span>avaliações de clientes</span></dd>
-            </div>
-          </dl>
-          <a class="trust-link" href="https://www.google.com/search?q=SCmarmores" target="_blank" rel="noreferrer">
-            <span>Ver avaliações no Google</span><b aria-hidden="true">↗</b>
-          </a>
-        </section>
-        <section class="contact" id="contato">`,
       )
       .replace(
         /<section class="contact" id="contato">[\s\S]*?<\/section>/i,
