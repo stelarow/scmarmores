@@ -2,43 +2,43 @@
   "originals": [
     {
       "path": "index.html",
-      "size": 18030,
-      "sha256": "ad6fdbc4ce450553592d998c0fb3005b26403013e1e3c3c8a887d383a1c5f480"
+      "size": 17749,
+      "sha256": "caba758b31980dd4fe0577a072a37631756aae7d12ec915bf5bea34398b671e3"
     },
     {
       "path": "marmores.html",
-      "size": 5985,
-      "sha256": "9b68d1e9309f6e8eb32b2130acdc5332d4c1a24d9ccde5925856f28085c943ea"
+      "size": 5947,
+      "sha256": "abddeea2f3a45a88b538c671186bee1a18582645693c185db58574a61d3e0b97"
     },
     {
       "path": "quartzitos.html",
-      "size": 5803,
-      "sha256": "790ff438d9814a53dd45e53163fcddb02692469eb132fd4ae01c281a8f3bf59c"
+      "size": 5788,
+      "sha256": "d05d8cff4a9a691e4b26db550d7b07e3e2c10a79f045fd5d517466cef05a19dc"
     },
     {
       "path": "granitos.html",
-      "size": 5708,
-      "sha256": "470aa0521935febe8906740c0dcc994531c336a6ff64916eaedbe20391d6029a"
+      "size": 5693,
+      "sha256": "2107c535143385466ec1fa63bcac8aa9e3865bcfd904875c0aee8d1ba00c80de"
     },
     {
       "path": "superficies-especiais.html",
-      "size": 5842,
-      "sha256": "093840c32763cd628e3ea25d1492f5dbbbd7359f9f1f5ed0785e1e08ce94db0c"
+      "size": 5827,
+      "sha256": "93e60520478bfbf3c2dcac57344dff53bd5748600c883bc24b0955ce9b35b3c4"
     },
     {
       "path": "projeto-azul-imperial.html",
-      "size": 6541,
-      "sha256": "02bade835402fb4ae4c1ab0f81d854555e71ac4a9f77be734ea1509ebaaf0a1c"
+      "size": 6457,
+      "sha256": "02a58d6cdac821d45abea8215afcc1ee4d1da6f00c21a4073e162872aea4dde8"
     },
     {
       "path": "projeto-escada-calcario.html",
-      "size": 6600,
-      "sha256": "ff653242a6d86265049c955c50f091f560bdc867f899e40fe655bd6516c2fee4"
+      "size": 6516,
+      "sha256": "0389c9fbc52349e5ef458429024ce965b7fff4630e44353b97ade2da90edba00"
     },
     {
       "path": "script.js",
-      "size": 5793,
-      "sha256": "d3b324bd962b9dc08258e87042b04aaac9286a64090676e6ba2feec246b3fc04"
+      "size": 5635,
+      "sha256": "4455de0009125fd52cf0dcb6440f20c9ff36a3028afb73b8b778fde1e73c199b"
     },
     {
       "path": "assets/hero-cozinha.webp",

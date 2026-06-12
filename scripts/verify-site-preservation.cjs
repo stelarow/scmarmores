@@ -7,8 +7,16 @@ const manifest = require('./site-preservation-manifest.json');
 const failures = [];
 
 const resolveFile = (relativePath) => path.join(root, relativePath);
-const hashFile = (relativePath) => {
+const normalizeContent = (relativePath, content) => {
+  if (!/\.(?:html|js|jsx|css|json)$/i.test(relativePath)) return content;
+  return Buffer.from(content.toString('utf8').replace(/\r\n/g, '\n'));
+};
+const readFile = (relativePath) => {
   const content = fs.readFileSync(resolveFile(relativePath));
+  return normalizeContent(relativePath, content);
+};
+const hashFile = (relativePath) => {
+  const content = readFile(relativePath);
   return crypto.createHash('sha256').update(content).digest('hex');
 };
 
@@ -19,9 +27,9 @@ for (const original of manifest.originals) {
     continue;
   }
 
-  const stats = fs.statSync(absolutePath);
+  const content = readFile(original.path);
   const hash = hashFile(original.path);
-  if (stats.size !== original.size || hash !== original.sha256) {
+  if (content.length !== original.size || hash !== original.sha256) {
     failures.push(`Arquivo original alterado: ${original.path}`);
   }
 }
