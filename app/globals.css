@@ -129,20 +129,21 @@ h1 em { color: var(--accent); font-weight: 400; }
 .process h3 { margin: 0 0 .7rem; font: 400 1.8rem/1.2 var(--display); }
 .process li p { margin: 0; max-width: 440px; color: var(--text-soft); line-height: 1.7; }
 
-.trust { padding: clamp(7rem, 12vw, 12rem) var(--pad); overflow: hidden; background: var(--orange-deep); color: var(--ink); }
+.trust { position: relative; isolation: isolate; padding: clamp(7rem, 12vw, 12rem) var(--pad); overflow: hidden; background: linear-gradient(135deg, var(--bg) 0%, var(--orange-wash) 58%, oklch(0.94 0.045 63) 100%); color: var(--ink-dark); }
+.trust::before { content: ""; position: absolute; z-index: -1; top: -24rem; right: -18rem; width: 54rem; aspect-ratio: 1; border: 1px solid oklch(0.62 0.13 52 / .12); border-radius: 50%; box-shadow: 0 0 0 8rem oklch(0.76 0.14 58 / .025), 0 0 0 17rem oklch(0.76 0.14 58 / .018); pointer-events: none; }
 .trust-intro { display: grid; grid-template-columns: .55fr 1.15fr .65fr; gap: clamp(3rem, 7vw, 8rem); align-items: end; }
-.trust-intro > p { margin: .5rem 0 0; color: var(--orange-soft); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; }
-.trust-intro h2 { margin: 0; font: 400 clamp(2.8rem, 5.5vw, 5.4rem)/1.04 var(--display); letter-spacing: -.025em; }
-.trust-intro > span { color: oklch(0.94 0.025 65); font-size: .76rem; line-height: 1.85; }
-.trust-numbers { margin: clamp(5rem, 9vw, 9rem) 0 0; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid oklch(1 0 0 / .25); }
-.trust-numbers > div { min-width: 0; padding: clamp(2rem, 4vw, 3.5rem) clamp(1rem, 3vw, 3rem) clamp(2rem, 4vw, 3.5rem) 0; border-bottom: 1px solid oklch(1 0 0 / .25); }
-.trust-numbers > div:not(:last-child) { margin-right: clamp(1rem, 3vw, 3rem); border-right: 1px solid oklch(1 0 0 / .18); }
-.trust-numbers dt { margin-bottom: clamp(2.5rem, 5vw, 5rem); color: var(--orange-soft); font-size: .66rem; letter-spacing: .09em; text-transform: uppercase; }
+.trust-intro > p { margin: .5rem 0 0; color: var(--orange-deep); font-size: .68rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+.trust-intro h2 { max-width: 780px; margin: 0; font: 400 clamp(2.7rem, 5vw, 5rem)/1.07 var(--display); letter-spacing: -.022em; }
+.trust-intro > span { max-width: 390px; color: var(--text-soft); font-size: .76rem; line-height: 1.85; }
+.trust-numbers { margin: clamp(5rem, 9vw, 9rem) 0 0; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line-dark); }
+.trust-numbers > div { min-width: 0; padding: clamp(2rem, 4vw, 3.5rem) clamp(1rem, 3vw, 3rem) clamp(2rem, 4vw, 3.5rem) 0; border-bottom: 1px solid var(--line-dark); }
+.trust-numbers > div:not(:last-child) { margin-right: clamp(1rem, 3vw, 3rem); border-right: 1px solid oklch(0.62 0.13 52 / .2); }
+.trust-numbers dt { margin-bottom: clamp(2.5rem, 5vw, 5rem); color: var(--orange-deep); font-size: .66rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
 .trust-numbers dd { margin: 0; display: flex; align-items: flex-end; gap: clamp(1rem, 2vw, 2rem); }
-.trust-numbers strong { font: 400 clamp(4.5rem, 8vw, 8rem)/.75 var(--display); letter-spacing: -.04em; }
-.trust-numbers span { max-width: 145px; color: oklch(0.94 0.025 65); font-size: .7rem; line-height: 1.55; }
-.trust-link { width: fit-content; margin-top: clamp(2.5rem, 5vw, 4rem); padding: .9rem 0; border-bottom: 1px solid var(--orange-soft); display: flex; align-items: center; gap: 2.5rem; color: white; font-size: .75rem; font-weight: 600; }
-.trust-link b { color: var(--orange-soft); font-size: 1rem; font-weight: 400; transition: transform .35s var(--ease); }
+.trust-numbers strong { color: var(--orange-deep); font: 400 clamp(4.5rem, 8vw, 8rem)/.75 var(--display); letter-spacing: -.04em; }
+.trust-numbers span { max-width: 145px; color: var(--text-soft); font-size: .7rem; line-height: 1.55; }
+.trust-link { width: fit-content; margin-top: clamp(2.5rem, 5vw, 4rem); padding: .9rem 0; border-bottom: 1px solid var(--orange-deep); display: flex; align-items: center; gap: 2.5rem; color: var(--ink-dark); font-size: .75rem; font-weight: 600; }
+.trust-link b { color: var(--orange-deep); font-size: 1rem; font-weight: 400; transition: transform .35s var(--ease); }
 .trust-link:hover b, .trust-link:focus-visible b { transform: translate(3px, -3px); }
 
 .contact { padding: clamp(8rem, 13vw, 13rem) var(--pad) clamp(7rem, 10vw, 10rem); background: linear-gradient(145deg, var(--bg) 0%, var(--orange-wash) 52%, var(--orange-soft) 100%); color: var(--ink-dark); display: grid; grid-template-columns: 1.4fr .8fr; gap: 4rem; align-items: flex-end; }
