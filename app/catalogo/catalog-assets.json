@@ -14,8 +14,8 @@
       "page": 4,
       "sequence": 2,
       "role": "feature",
-      "width": 1488,
-      "height": 667,
+      "width": 2752,
+      "height": 1536,
       "name": "Bronze Rivers"
     },
     {
@@ -83,8 +83,8 @@
       "page": 5,
       "sequence": 2,
       "role": "feature",
-      "width": 1488,
-      "height": 667,
+      "width": 2752,
+      "height": 1536,
       "name": "Chateau Brown"
     },
     {
@@ -152,8 +152,8 @@
       "page": 6,
       "sequence": 2,
       "role": "feature",
-      "width": 1488,
-      "height": 667,
+      "width": 2752,
+      "height": 1536,
       "name": "Raw G"
     },
     {
@@ -221,8 +221,8 @@
       "page": 7,
       "sequence": 2,
       "role": "feature",
-      "width": 1488,
-      "height": 667,
+      "width": 2752,
+      "height": 1536,
       "name": "Cinder Craze"
     },
     {
@@ -290,8 +290,8 @@
       "page": 8,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 667,
+      "width": 2752,
+      "height": 1536,
       "name": "Poblenou"
     },
     {
@@ -359,8 +359,8 @@
       "page": 9,
       "sequence": 2,
       "role": "feature",
-      "width": 1488,
-      "height": 667,
+      "width": 2752,
+      "height": 1536,
       "name": "Desert Silver"
     },
     {
@@ -428,8 +428,8 @@
       "page": 10,
       "sequence": 2,
       "role": "feature",
-      "width": 1488,
-      "height": 667,
+      "width": 2752,
+      "height": 1536,
       "name": "Rougui"
     },
     {
@@ -497,8 +497,8 @@
       "page": 11,
       "sequence": 2,
       "role": "feature",
-      "width": 1488,
-      "height": 667,
+      "width": 2752,
+      "height": 1536,
       "name": "Arden Blue"
     },
     {
@@ -2390,7 +2390,7 @@
       "page": 46,
       "sequence": 107,
       "role": "sample",
-      "name": "Snowstorm",
+      "name": "Snowstorm Premium",
       "width": 252,
       "height": 354,
       "source": "PDF pagina 46, posicao visual 7"
@@ -2641,7 +2641,7 @@
       "page": 49,
       "sequence": 107,
       "role": "sample",
-      "name": "Ônix Super",
+      "name": "Ônix Sunset",
       "width": 371,
       "height": 220,
       "source": "PDF pagina 49, posicao visual 7"
@@ -2651,7 +2651,7 @@
       "page": 49,
       "sequence": 108,
       "role": "sample",
-      "name": "Ônix Sunset White",
+      "name": "Ônix Super White",
       "width": 354,
       "height": 210,
       "source": "PDF pagina 49, posicao visual 8"
@@ -2822,8 +2822,8 @@
       "page": 53,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Salvatore"
     },
     {
@@ -2951,8 +2951,8 @@
       "page": 54,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Persa Fendi"
     },
     {
@@ -3080,8 +3080,8 @@
       "page": 55,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Delfos"
     },
     {
@@ -3209,8 +3209,8 @@
       "page": 56,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Daino Reale"
     },
     {
@@ -3218,7 +3218,7 @@
       "page": 56,
       "sequence": 101,
       "role": "sample",
-      "name": "Dark Maze Delicato",
+      "name": "Dark Maze",
       "width": 205,
       "height": 288,
       "source": "PDF pagina 56, posicao visual 1"
@@ -3228,7 +3228,7 @@
       "page": 56,
       "sequence": 102,
       "role": "sample",
-      "name": "Daino Reale Standard",
+      "name": "Reale",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 56, posicao visual 2"
@@ -3238,7 +3238,7 @@
       "page": 56,
       "sequence": 103,
       "role": "sample",
-      "name": "Cremo",
+      "name": "Cremo Delicato",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 56, posicao visual 3"
@@ -3248,7 +3248,7 @@
       "page": 56,
       "sequence": 104,
       "role": "sample",
-      "name": "Crema M.",
+      "name": "Crema M. Standard",
       "width": 192,
       "height": 288,
       "source": "PDF pagina 56, posicao visual 4"
@@ -3338,8 +3338,8 @@
       "page": 57,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Carrara"
     },
     {
@@ -3347,7 +3347,7 @@
       "page": 57,
       "sequence": 101,
       "role": "sample",
-      "name": "Carrara Venato",
+      "name": "Carrara",
       "width": 205,
       "height": 288,
       "source": "PDF pagina 57, posicao visual 1"
@@ -3357,7 +3357,7 @@
       "page": 57,
       "sequence": 102,
       "role": "sample",
-      "name": "Catacatta Ouro",
+      "name": "Catacatta Venato",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 57, posicao visual 2"
@@ -3367,7 +3367,7 @@
       "page": 57,
       "sequence": 103,
       "role": "sample",
-      "name": "Calacatta Mielli",
+      "name": "Calacatta Ouro",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 57, posicao visual 3"
@@ -3377,7 +3377,7 @@
       "page": 57,
       "sequence": 104,
       "role": "sample",
-      "name": "Calacatta",
+      "name": "Calacatta Mielli",
       "width": 192,
       "height": 288,
       "source": "PDF pagina 57, posicao visual 4"
@@ -3467,8 +3467,8 @@
       "page": 58,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Branco Sivec Dove"
     },
     {
@@ -3596,8 +3596,8 @@
       "page": 59,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Black and Gold"
     },
     {
@@ -3655,7 +3655,7 @@
       "page": 59,
       "sequence": 106,
       "role": "sample",
-      "name": "Bardiglio Wood",
+      "name": "Bardiglio",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 59, posicao visual 6"
@@ -3665,7 +3665,7 @@
       "page": 59,
       "sequence": 107,
       "role": "sample",
-      "name": "Athens Extra",
+      "name": "Athens Wood",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 59, posicao visual 7"
@@ -3675,7 +3675,7 @@
       "page": 59,
       "sequence": 108,
       "role": "sample",
-      "name": "Ariston",
+      "name": "Ariston Extra",
       "width": 192,
       "height": 288,
       "source": "PDF pagina 59, posicao visual 8"
@@ -3725,8 +3725,8 @@
       "page": 60,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Rafaello"
     },
     {
@@ -3734,7 +3734,7 @@
       "page": 60,
       "sequence": 101,
       "role": "sample",
-      "name": "Vicenzo Pellegrino",
+      "name": "Vicenzo",
       "width": 205,
       "height": 288,
       "source": "PDF pagina 60, posicao visual 1"
@@ -3744,7 +3744,7 @@
       "page": 60,
       "sequence": 102,
       "role": "sample",
-      "name": "San",
+      "name": "San Pellegrino",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 60, posicao visual 2"
@@ -3774,7 +3774,7 @@
       "page": 60,
       "sequence": 105,
       "role": "sample",
-      "name": "Nero White",
+      "name": "Nero",
       "width": 205,
       "height": 288,
       "source": "PDF pagina 60, posicao visual 5"
@@ -3784,7 +3784,7 @@
       "page": 60,
       "sequence": 106,
       "role": "sample",
-      "name": "Mystery Macchiato",
+      "name": "Mystery White",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 60, posicao visual 6"
@@ -3794,7 +3794,7 @@
       "page": 60,
       "sequence": 107,
       "role": "sample",
-      "name": "Paraná Mil. Classic",
+      "name": "Paraná Mil. Macchiato",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 60, posicao visual 7"
@@ -3804,7 +3804,7 @@
       "page": 60,
       "sequence": 108,
       "role": "sample",
-      "name": "Paraná Mil.",
+      "name": "Paraná Mil. Classic",
       "width": 192,
       "height": 288,
       "source": "PDF pagina 60, posicao visual 8"
@@ -3854,8 +3854,8 @@
       "page": 61,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Rosa Espirito Santo"
     },
     {
@@ -3923,7 +3923,7 @@
       "page": 61,
       "sequence": 107,
       "role": "sample",
-      "name": "Calatta",
+      "name": "Calatta Botticelli",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 61, posicao visual 7"
@@ -3933,7 +3933,7 @@
       "page": 61,
       "sequence": 108,
       "role": "sample",
-      "name": "Travertino Botticelli",
+      "name": "Travertino",
       "width": 192,
       "height": 288,
       "source": "PDF pagina 61, posicao visual 8"
@@ -3983,8 +3983,8 @@
       "page": 62,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "Marmore Parana Kronos"
     },
     {
@@ -4048,7 +4048,7 @@
       "page": 64,
       "sequence": 101,
       "role": "sample",
-      "name": "Limestone Royale",
+      "name": "Travertino Ocean Grey",
       "width": 340,
       "height": 480,
       "source": "PDF pagina 64, posicao visual 1"
@@ -4058,7 +4058,7 @@
       "page": 64,
       "sequence": 102,
       "role": "sample",
-      "name": "Travertino Ocean Grey",
+      "name": "Limestone Valverde",
       "width": 313,
       "height": 469,
       "source": "PDF pagina 64, posicao visual 2"
@@ -4068,7 +4068,7 @@
       "page": 64,
       "sequence": 103,
       "role": "sample",
-      "name": "Limestone Valverde",
+      "name": "Limestone Royale",
       "width": 313,
       "height": 467,
       "source": "PDF pagina 64, posicao visual 3"
@@ -4109,8 +4109,8 @@
       "page": 66,
       "sequence": 2,
       "role": "feature",
-      "width": 1487,
-      "height": 531,
+      "width": 2752,
+      "height": 1536,
       "name": "White Macaubas MB28"
     },
     {
@@ -4158,7 +4158,7 @@
       "page": 66,
       "sequence": 105,
       "role": "sample",
-      "name": "Holos Selec MB13",
+      "name": "Holos",
       "width": 205,
       "height": 288,
       "source": "PDF pagina 66, posicao visual 5"
@@ -4168,7 +4168,7 @@
       "page": 66,
       "sequence": 106,
       "role": "sample",
-      "name": "Tundra Bianco SE13",
+      "name": "Tundra Selec MB13",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 66, posicao visual 6"
@@ -4178,7 +4178,7 @@
       "page": 66,
       "sequence": 107,
       "role": "sample",
-      "name": "Travertino Chiaro SE09",
+      "name": "Travertino Bianco SE13",
       "width": 204,
       "height": 288,
       "source": "PDF pagina 66, posicao visual 7"
@@ -4188,7 +4188,7 @@
       "page": 66,
       "sequence": 108,
       "role": "sample",
-      "name": "Travertino",
+      "name": "Travertino Chiaro SE09",
       "width": 192,
       "height": 288,
       "source": "PDF pagina 66, posicao visual 8"

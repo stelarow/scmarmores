@@ -2,43 +2,38 @@
   "originals": [
     {
       "path": "index.html",
-      "size": 18180,
-      "sha256": "cbfaef2a42803d2f9b2768de06205b0d2a90eec53e426fda4c4a33b204756af9"
+      "size": 18030,
+      "sha256": "ad6fdbc4ce450553592d998c0fb3005b26403013e1e3c3c8a887d383a1c5f480"
     },
     {
       "path": "marmores.html",
-      "size": 6023,
-      "sha256": "874912ff6fa6497a692da8ce1b7ab7c652694eff24e0d59460f518c2492d8122"
+      "size": 5985,
+      "sha256": "9b68d1e9309f6e8eb32b2130acdc5332d4c1a24d9ccde5925856f28085c943ea"
     },
     {
       "path": "quartzitos.html",
-      "size": 5841,
-      "sha256": "7dbf39bb1398c6472cda258047e4ee962f82fc0d2fbe29a0ca9a12d6ce03455c"
+      "size": 5803,
+      "sha256": "790ff438d9814a53dd45e53163fcddb02692469eb132fd4ae01c281a8f3bf59c"
     },
     {
       "path": "granitos.html",
-      "size": 5746,
-      "sha256": "a7026f80d7c6411ce69620a17afdc338d6f85f5e33d622114222ea79cfad9d4f"
+      "size": 5708,
+      "sha256": "470aa0521935febe8906740c0dcc994531c336a6ff64916eaedbe20391d6029a"
     },
     {
       "path": "superficies-especiais.html",
-      "size": 5880,
-      "sha256": "527ac9f70fa24170c548afcbada442515ac0a8fbacdb9924591e638c271b859b"
-    },
-    {
-      "path": "execucao.html",
-      "size": 7411,
-      "sha256": "c6a54b101608c02d3db27c1da5bb1c913f497d6f81e3507b3714aba1736ed484"
+      "size": 5842,
+      "sha256": "093840c32763cd628e3ea25d1492f5dbbbd7359f9f1f5ed0785e1e08ce94db0c"
     },
     {
       "path": "projeto-azul-imperial.html",
-      "size": 6642,
-      "sha256": "a738db809ab9d748ed207c87b9129f2c997e1a63b8e909b225d52f7877f4970a"
+      "size": 6541,
+      "sha256": "02bade835402fb4ae4c1ab0f81d854555e71ac4a9f77be734ea1509ebaaf0a1c"
     },
     {
       "path": "projeto-escada-calcario.html",
-      "size": 6701,
-      "sha256": "5675d6d940ab10c5b92aea9d79e766b4ee11ea882fa31e885b78db373e9b3fee"
+      "size": 6600,
+      "sha256": "ff653242a6d86265049c955c50f091f560bdc867f899e40fe655bd6516c2fee4"
     },
     {
       "path": "script.js",
@@ -79,10 +74,6 @@
     [
       "index.html",
       "app/page.jsx"
-    ],
-    [
-      "execucao.html",
-      "app/execucao.html/page.jsx"
     ],
     [
       "projeto-azul-imperial.html",

@@ -64,7 +64,13 @@ const onixPositions = {
   50: [[46, 20, 368, 250], [855, 38, 368, 250], [43, 455, 371, 250], [855, 467, 371, 250], [34, 936, 368, 250], [855, 925, 371, 250], [32, 1338, 371, 250], [856, 1340, 367, 250]],
   51: [[19, 30, 368, 250], [852, 53, 371, 250], [23, 485, 367, 250], [852, 500, 368, 250], [23, 982, 370, 250], [848, 955, 372, 250], [848, 1408, 372, 250]],
 };
-const limestonePositions = [[48, 490, 340, 480], [850, 481, 313, 469], [77, 1098, 313, 467], [449, 852, 340, 480], [830, 1074, 356, 503]];
+const limestoneSamples = [
+  { name: 'Travertino Ocean Grey', position: [48, 490, 340, 480] },
+  { name: 'Limestone Valverde', position: [850, 481, 313, 469] },
+  { name: 'Limestone Royale', position: [77, 1098, 313, 467] },
+  { name: 'Niwala Yellow', position: [449, 852, 340, 480] },
+  { name: 'Limestone Baccarat', position: [830, 1074, 356, 503] },
+];
 
 function readPageNames() {
   const source = fs.readFileSync(catalogDataPath, 'utf8');
@@ -129,7 +135,9 @@ function main() {
     }
   }
   for (const page of [49, 50, 51]) pageNames[page].forEach((name, index) => result.onix.push(crop('onix', page, index, name, onixPositions[page][index])));
-  pageNames[64].forEach((name, index) => result.limestones.push(crop('limestones', 64, index, name, limestonePositions[index])));
+  limestoneSamples.forEach(({ name, position }, index) => {
+    result.limestones.push(crop('limestones', 64, index, name, position));
+  });
   for (const assets of Object.values(result)) assets.sort((a, b) => a.page - b.page || a.sequence - b.sequence);
   fs.writeFileSync(dataPath, `${JSON.stringify(result, null, 2)}\n`);
   console.log('Amostras restauradas diretamente das posicoes legendadas no PDF.');

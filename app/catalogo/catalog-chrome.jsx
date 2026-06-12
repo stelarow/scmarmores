@@ -15,7 +15,6 @@ export function CatalogHeader() {
         <nav className="desktop-nav" aria-label="Navegação principal">
           <Link href="/#projetos">Projetos</Link>
           <Link href="/catalogo">Catálogo</Link>
-          <Link href="/execucao.html">Processo</Link>
           <Link href="#contato">Contato</Link>
         </nav>
         <Link className="header-cta" href="#contato">Consultar materiais <span>↗</span></Link>
