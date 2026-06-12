@@ -64,6 +64,24 @@ const readLegacyPage = cache((filename) => {
             <p>SC Mármores</p>
             <h1>Pedras sob medida<br />para transformar ambientes.</h1>
           </div>
+          <a class="hero-proof" href="https://www.google.com/search?q=SCmarmores" target="_blank" rel="noreferrer" aria-label="Ver avaliações da SC Mármores no Google">
+            <span class="hero-proof-inner">
+              <span class="hero-proof-desktop">
+                <span class="hero-proof-stars" aria-hidden="true">★★★★★</span>
+                <strong>4,9 no Google</strong>
+                <span>284 avaliações</span>
+                <span>14 anos de experiência</span>
+                <b aria-hidden="true">↗</b>
+              </span>
+              <span class="hero-proof-mobile">
+                <span aria-hidden="true">★</span>
+                <strong>4,9</strong>
+                <span>284 avaliações</span>
+                <span>14 anos</span>
+                <b aria-hidden="true">↗</b>
+              </span>
+            </span>
+          </a>
         </section>`,
       )
       .replace('<a href="#projetos">Projetos</a>', '<a href="#materiais">Materiais</a>')
@@ -111,6 +129,34 @@ const readLegacyPage = cache((filename) => {
             <li><span>03</span><div><h3>Produção e instalação</h3><p>Produzimos as peças sob medida e cuidamos da instalação para entregar o ambiente finalizado.</p></div></li>
           </ol>
         </section>`,
+      )
+      .replace(
+        /<section class="contact" id="contato">/i,
+        `<section class="trust" aria-labelledby="trust-title">
+          <div class="trust-intro">
+            <p>Confiança construída projeto após projeto</p>
+            <h2 id="trust-title">Experiência que se confirma<br />na avaliação dos clientes.</h2>
+            <span>Da escolha da pedra à instalação, cada etapa é conduzida com orientação, precisão e cuidado.</span>
+          </div>
+          <dl class="trust-numbers">
+            <div>
+              <dt>Experiência</dt>
+              <dd><strong>14</strong><span>anos transformando pedras em ambientes</span></dd>
+            </div>
+            <div>
+              <dt>Avaliação no Google</dt>
+              <dd><strong>4,9</strong><span>de 5 estrelas</span></dd>
+            </div>
+            <div>
+              <dt>Prova social</dt>
+              <dd><strong>284</strong><span>avaliações de clientes</span></dd>
+            </div>
+          </dl>
+          <a class="trust-link" href="https://www.google.com/search?q=SCmarmores" target="_blank" rel="noreferrer">
+            <span>Ver avaliações no Google</span><b aria-hidden="true">↗</b>
+          </a>
+        </section>
+        <section class="contact" id="contato">`,
       )
       .replace(
         /<section class="contact" id="contato">[\s\S]*?<\/section>/i,
