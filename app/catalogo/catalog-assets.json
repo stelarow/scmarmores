@@ -1295,8 +1295,8 @@
       "page": 24,
       "sequence": 1,
       "role": "feature",
-      "width": 1403,
-      "height": 2104,
+      "width": 2048,
+      "height": 1152,
       "name": "Preto Indiano"
     },
     {
@@ -2321,8 +2321,8 @@
       "page": 45,
       "sequence": 2,
       "role": "feature",
-      "width": 1488,
-      "height": 2104,
+      "width": 2048,
+      "height": 1152,
       "name": "Compacstones"
     },
     {
@@ -2572,8 +2572,8 @@
       "page": 48,
       "sequence": 1,
       "role": "feature",
-      "width": 1488,
-      "height": 2104,
+      "width": 2048,
+      "height": 1152,
       "name": "Onix"
     },
     {
