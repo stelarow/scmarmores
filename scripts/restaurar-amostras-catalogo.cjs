@@ -32,7 +32,7 @@ const featureNames = {
 };
 const coverNames = {
   3: 'Silestones', 12: 'Dekton', 24: 'Granitos', 33: 'Quartzitos',
-  45: 'Compacstones', 48: 'Onix', 52: 'Marmores', 63: 'Limestones',
+  45: 'Quartzos', 48: 'Onix', 52: 'Marmores', 63: 'Limestones',
   65: 'Infinity', 70: 'Crystal',
 };
 

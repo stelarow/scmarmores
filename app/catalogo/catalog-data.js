@@ -157,7 +157,7 @@ const categoryDefinitions = [
   },
   {
     slug: 'compacstones',
-    name: 'Compacstones',
+    name: 'Quartzos',
     eyebrow: 'Uniformidade mineral',
     statement: 'Uma paleta objetiva para superfícies contínuas.',
     description: 'Cores organizadas para apoiar composições claras, consistentes e tecnicamente bem resolvidas.',

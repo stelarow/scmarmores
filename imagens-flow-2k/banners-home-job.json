@@ -1,0 +1,86 @@
+﻿{
+    "project_id":  "3df0d569-3c37-448c-8089-0e9122009c03",
+    "video_id":  "c078e69d-6eca-4c54-87eb-ac61a871ddab",
+    "output_dir":  "C:\\scmarmores\\imagens-flow-2k\\banners-home",
+    "total":  3,
+    "imported":  3,
+    "failed":  0,
+    "failures":  [
+
+                 ],
+    "items":  [
+                  {
+                      "index":  0,
+                      "name":  "Banner Granitos",
+                      "scene_id":  "b5ac4f55-e0aa-4854-ba77-add614a38429",
+                      "source_media_id":  "829f9afb-9036-4051-9dd2-2068ac67d49f",
+                      "original_path":  "C:\\scmarmores\\imagens-flow-2k\\banners-home\\Banner Granitos.webp",
+                      "request":  {
+                                      "type":  "EDIT_IMAGE",
+                                      "scene_id":  "b5ac4f55-e0aa-4854-ba77-add614a38429",
+                                      "project_id":  "3df0d569-3c37-448c-8089-0e9122009c03",
+                                      "video_id":  "c078e69d-6eca-4c54-87eb-ac61a871ddab",
+                                      "orientation":  "HORIZONTAL",
+                                      "source_media_id":  "829f9afb-9036-4051-9dd2-2068ac67d49f"
+                                  }
+                  },
+                  {
+                      "index":  1,
+                      "name":  "Banner Compacstones",
+                      "scene_id":  "d0b833a0-0a67-46dd-9465-e17f2bdb7715",
+                      "source_media_id":  "a666d4ed-3049-4134-9715-4aa5e1bee423",
+                      "original_path":  "C:\\scmarmores\\imagens-flow-2k\\banners-home\\Banner Compacstones.webp",
+                      "request":  {
+                                      "type":  "EDIT_IMAGE",
+                                      "scene_id":  "d0b833a0-0a67-46dd-9465-e17f2bdb7715",
+                                      "project_id":  "3df0d569-3c37-448c-8089-0e9122009c03",
+                                      "video_id":  "c078e69d-6eca-4c54-87eb-ac61a871ddab",
+                                      "orientation":  "HORIZONTAL",
+                                      "source_media_id":  "a666d4ed-3049-4134-9715-4aa5e1bee423"
+                                  }
+                  },
+                  {
+                      "index":  2,
+                      "name":  "Banner Onix",
+                      "scene_id":  "7235ca33-282e-4046-945b-9bc366153312",
+                      "source_media_id":  "698a6861-5488-4ecb-9c61-9efcd7c442fe",
+                      "original_path":  "C:\\scmarmores\\imagens-flow-2k\\banners-home\\Banner Onix.webp",
+                      "request":  {
+                                      "type":  "EDIT_IMAGE",
+                                      "scene_id":  "7235ca33-282e-4046-945b-9bc366153312",
+                                      "project_id":  "3df0d569-3c37-448c-8089-0e9122009c03",
+                                      "video_id":  "c078e69d-6eca-4c54-87eb-ac61a871ddab",
+                                      "orientation":  "HORIZONTAL",
+                                      "source_media_id":  "698a6861-5488-4ecb-9c61-9efcd7c442fe"
+                                  }
+                  }
+              ],
+    "batch":  {
+                  "requests":  [
+                                   {
+                                       "type":  "EDIT_IMAGE",
+                                       "scene_id":  "b5ac4f55-e0aa-4854-ba77-add614a38429",
+                                       "project_id":  "3df0d569-3c37-448c-8089-0e9122009c03",
+                                       "video_id":  "c078e69d-6eca-4c54-87eb-ac61a871ddab",
+                                       "orientation":  "HORIZONTAL",
+                                       "source_media_id":  "829f9afb-9036-4051-9dd2-2068ac67d49f"
+                                   },
+                                   {
+                                       "type":  "EDIT_IMAGE",
+                                       "scene_id":  "d0b833a0-0a67-46dd-9465-e17f2bdb7715",
+                                       "project_id":  "3df0d569-3c37-448c-8089-0e9122009c03",
+                                       "video_id":  "c078e69d-6eca-4c54-87eb-ac61a871ddab",
+                                       "orientation":  "HORIZONTAL",
+                                       "source_media_id":  "a666d4ed-3049-4134-9715-4aa5e1bee423"
+                                   },
+                                   {
+                                       "type":  "EDIT_IMAGE",
+                                       "scene_id":  "7235ca33-282e-4046-945b-9bc366153312",
+                                       "project_id":  "3df0d569-3c37-448c-8089-0e9122009c03",
+                                       "video_id":  "c078e69d-6eca-4c54-87eb-ac61a871ddab",
+                                       "orientation":  "HORIZONTAL",
+                                       "source_media_id":  "698a6861-5488-4ecb-9c61-9efcd7c442fe"
+                                   }
+                               ]
+              }
+}
