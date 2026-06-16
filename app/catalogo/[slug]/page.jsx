@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { CatalogContact, CatalogFooter, CatalogHeader } from '../catalog-chrome';
+import { CatalogFooter, CatalogHeader } from '../catalog-chrome';
 import { catalogCategories, getCatalogCategory } from '../catalog-data';
 
 export const generateStaticParams = () => catalogCategories.map(({ slug }) => ({ slug }));
@@ -38,7 +38,6 @@ export default function CatalogCategoryPage({ params }) {
   if (!category) notFound();
 
   const currentIndex = catalogCategories.findIndex(({ slug }) => slug === category.slug);
-  const nextCategory = catalogCategories[(currentIndex + 1) % catalogCategories.length];
   const hero = category.hero;
   const assets = category.assets.slice(1);
 
@@ -78,25 +77,6 @@ export default function CatalogCategoryPage({ params }) {
             <Asset asset={asset} category={category} priority={index < 2} key={asset.id} />
           ))}
         </section>
-
-        <section className="catalog-disclaimer">
-          <p>Uma escolha acompanhada</p>
-          <h2>Da primeira referência à chapa definida para o projeto.</h2>
-          <span>
-            Fotografias e amostras representam a aparência geral do material. Pedras naturais apresentam variações de
-            tonalidade, veio e desenho. Consulte nossa equipe para avaliar a seleção disponível.
-          </span>
-        </section>
-
-        <section className="catalog-next">
-          <p>Continuar a curadoria</p>
-          <Link href={`/catalogo/${nextCategory.slug}`}>
-            <span>{nextCategory.name}</span><b>↗</b>
-          </Link>
-          <Link href="/catalogo">Ver todas as famílias <span>→</span></Link>
-        </section>
-
-        <CatalogContact categoryName={category.shortName || category.name} />
       </main>
       <CatalogFooter />
     </>
