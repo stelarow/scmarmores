@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { CatalogFooter, CatalogHeader } from '../catalog-chrome';
+import { CatalogContact, CatalogFooter, CatalogHeader } from '../catalog-chrome';
 import { catalogCategories, getCatalogCategory } from '../catalog-data';
 
 export const generateStaticParams = () => catalogCategories.map(({ slug }) => ({ slug }));
 
 export const generateMetadata = ({ params }) => {
-  const category = getCatalogCategory(params.slug);
+  const category = catalogCategories.find(({ slug }) => slug === params.slug);
   if (!category) return {};
   return {
     title: `${category.name} | Curadoria SC Mármores`,
@@ -77,6 +77,8 @@ export default function CatalogCategoryPage({ params }) {
             <Asset asset={asset} category={category} priority={index < 2} key={asset.id} />
           ))}
         </section>
+
+        <CatalogContact />
       </main>
       <CatalogFooter />
     </>

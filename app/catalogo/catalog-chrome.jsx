@@ -15,13 +15,14 @@ const Brand = ({ footer = false }) => (
   </Link>
 );
 
-export function CatalogHeader() {
+export function CatalogHeader({ showBlog = true }) {
   return (
     <>
       <header className="site-header catalog-site-header" id="topo">
         <Brand />
         <nav className="desktop-nav" aria-label="Navegação principal">
           <Link href="/catalogo">Catálogo</Link>
+          {showBlog ? <Link href="/blog">Blog</Link> : null}
           <Link href="#contato">Contato</Link>
         </nav>
         <a className="header-cta header-whatsapp-cta" href={whatsappHref} target="_blank" rel="noreferrer" aria-label="Fale conosco pelo WhatsApp">
@@ -36,7 +37,7 @@ export function CatalogHeader() {
   );
 }
 
-export function CatalogFooter() {
+export function CatalogFooter({ showBlogLink = true }) {
   return (
     <footer>
       <Brand footer />
@@ -48,6 +49,7 @@ export function CatalogFooter() {
       <div>
         <span>Catálogo</span>
         <Link href="/catalogo">Ver todas as categorias</Link>
+        {showBlogLink ? <Link href="/blog">Ler guias do blog</Link> : null}
         <Link href="#contato">Consultar disponibilidade</Link>
       </div>
       <div className="footer-meta">

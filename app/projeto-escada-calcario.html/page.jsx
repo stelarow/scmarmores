@@ -1,7 +1,7 @@
-import LegacyPage from '../legacy-page';
+import StaticLegacyPage from '../static-legacy-page';
 
 export const metadata = { title: 'Escada em calcário natural | SC Mármores' };
 
 export default function Page() {
-  return <LegacyPage filename="projeto-escada-calcario.html" />;
+  return <StaticLegacyPage filename="projeto-escada-calcario.html" />;
 }

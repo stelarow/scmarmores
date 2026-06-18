@@ -1,30 +1,80 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { cache } from 'react';
+import { blogPosts } from './blog/blog-data';
 import LegacyInteractions from './legacy-interactions';
-import { catalogCategories } from './catalogo/catalog-data';
 
-const materialImageOverrides = {
-  silestones: '/catalogo/editorial/silestones/pagina-004-imagem-02.webp',
-  dekton: '/catalogo/editorial/dekton/pagina-013-imagem-02.webp',
-  granitos: '/catalogo/editorial/granitos/pagina-024-imagem-01.webp',
-  quartzitos: '/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp',
-  compacstones: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
-  onix: '/catalogo/editorial/onix/pagina-048-imagem-01.webp',
-  marmores: '/catalogo/editorial/marmores/pagina-053-imagem-02.webp',
-  limestones: '/catalogo/editorial/limestones/pagina-064-imagem-02.webp',
-  infinity: '/catalogo/editorial/infinity/pagina-066-imagem-02.webp',
-  crystal: '/catalogo/editorial/crystal/pagina-071-imagem-02.webp',
-};
+const homeMaterials = [
+  {
+    slug: 'silestones',
+    name: 'Silestones',
+    eyebrow: 'Desenho controlado',
+    image: '/catalogo/editorial/silestones/pagina-004-imagem-02.webp',
+  },
+  {
+    slug: 'dekton',
+    name: 'Dekton',
+    eyebrow: 'Amplitude de linguagem',
+    image: '/catalogo/editorial/dekton/pagina-013-imagem-02.webp',
+  },
+  {
+    slug: 'granitos',
+    name: 'Granitos',
+    eyebrow: 'Resistência natural',
+    image: '/catalogo/editorial/granitos/pagina-024-imagem-01.webp',
+  },
+  {
+    slug: 'quartzitos',
+    name: 'Quartzitos',
+    eyebrow: 'Força e expressão',
+    image: '/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp',
+  },
+  {
+    slug: 'compacstones',
+    name: 'Quartzos',
+    eyebrow: 'Uniformidade mineral',
+    image: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
+  },
+  {
+    slug: 'onix',
+    name: 'Ônix',
+    eyebrow: 'Luz e translucidez',
+    image: '/catalogo/editorial/onix/pagina-048-imagem-01.webp',
+  },
+  {
+    slug: 'marmores',
+    name: 'Mármores',
+    eyebrow: 'Veios e profundidade',
+    image: '/catalogo/editorial/marmores/pagina-053-imagem-02.webp',
+  },
+  {
+    slug: 'limestones',
+    name: 'Limestones',
+    eyebrow: 'Textura serena',
+    image: '/catalogo/editorial/limestones/pagina-064-imagem-02.webp',
+  },
+  {
+    slug: 'infinity',
+    name: 'Infinity',
+    eyebrow: 'Planos contínuos',
+    image: '/catalogo/editorial/infinity/pagina-066-imagem-02.webp',
+  },
+  {
+    slug: 'crystal',
+    name: 'Crystal',
+    eyebrow: 'Brilho mineral',
+    image: '/catalogo/editorial/crystal/pagina-071-imagem-02.webp',
+  },
+];
 
-const materialGallery = catalogCategories
+const materialGallery = homeMaterials
   .map(
-    (category) => `
-      <a class="material-tile" href="/catalogo/${category.slug}">
-        <img src="${materialImageOverrides[category.slug] || category.hero.src}" alt="Ambiente com aplicação de ${category.shortName || category.name}" loading="lazy" />
+    (material) => `
+      <a class="material-tile" href="/catalogo/${material.slug}">
+        <img src="${material.image}" alt="Ambiente com aplicação de ${material.name}" loading="lazy" />
         <span class="material-tile-shade"></span>
-        <span class="material-tile-meta">${category.eyebrow}</span>
-        <strong>${category.shortName || category.name}</strong>
+        <span class="material-tile-meta">${material.eyebrow}</span>
+        <strong>${material.name}</strong>
         <i aria-hidden="true">↗</i>
       </a>`,
   )
@@ -55,6 +105,76 @@ const trustSection = `<section class="trust" aria-labelledby="trust-title">
   </a>
 </section>`;
 
+const homeBlogSection = `<section class="home-blog" id="blog" aria-labelledby="home-blog-title">
+  <div class="home-blog-heading">
+    <div>
+      <p>Guias para escolher melhor</p>
+      <h2 id="home-blog-title">Conteúdo para decidir<br />com mais clareza.</h2>
+    </div>
+    <span>Leia orientações práticas sobre preço, escolha de materiais, uso em cozinha e cuidados com mármore antes de iniciar seu projeto.</span>
+  </div>
+  <div class="home-blog-grid">
+    ${blogPosts.map((post, index) => `
+      <a class="home-blog-card" href="/blog/${post.slug}">
+        <figure><img src="${post.heroImage}" alt="" loading="lazy" decoding="async" /></figure>
+        <div>
+          <p>${post.eyebrow}</p>
+          <h3>${post.title}</h3>
+          <span>${post.description}</span>
+          <small>${post.readTime}</small>
+        </div>
+        <b aria-hidden="true">↗</b>
+      </a>`).join('')}
+  </div>
+  <a class="home-blog-all" href="/blog">
+    <span>Ver todos os artigos</span>
+    <b aria-hidden="true">↗</b>
+  </a>
+</section>`;
+
+const locationSection = `<section class="location" id="como-chegar" aria-labelledby="location-title">
+  <div class="location-heading">
+    <p>Como chegar até nós</p>
+    <h2 id="location-title">Visite a SC Mármores<br />em Florianópolis.</h2>
+    <span>Estamos na SC-401, em Vargem Pequena, ao lado da Churrascaria Centenário. Para visitas técnicas, escolha de materiais ou início de orçamento, fale com a equipe antes de vir.</span>
+  </div>
+  <div class="location-shell">
+    <div class="location-map" aria-label="Mapa com localização da SC Mármores">
+      <iframe
+        class="lazy-map-frame"
+        title="Mapa da SC Mármores em Florianópolis"
+        data-src="https://www.google.com/maps?q=SC%20M%C3%A1rmores%2C%20Rodovia%20Jos%C3%A9%20Carlos%20Daux%2016994%2C%20Vargem%20Pequena%2C%20Florian%C3%B3polis%2C%20SC&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div class="location-info">
+      <dl>
+        <div>
+          <dt>Endereço</dt>
+          <dd>Rodovia José Carlos Daux, 16994<br />Vargem Pequena, Florianópolis, SC<br /><small>Ao lado da Churrascaria Centenário</small></dd>
+        </div>
+        <div>
+          <dt>Contato</dt>
+          <dd><a href="tel:+554833692112">(48) 3369-2112</a><br /><a href="mailto:contato@scmarmores.com.br">contato@scmarmores.com.br</a></dd>
+        </div>
+        <div>
+          <dt>Instagram</dt>
+          <dd><a href="https://www.instagram.com/scmarmores/" target="_blank" rel="noreferrer">@scmarmores</a></dd>
+        </div>
+        <div>
+          <dt>Horário de funcionamento</dt>
+          <dd>Segunda a quinta: 08:00 às 12:00 e 13:30 às 18:00<br />Sexta: 08:00 às 12:00 e 13:30 às 17:00<br />Sábado e domingo: fechado</dd>
+        </div>
+      </dl>
+      <div class="location-actions">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=SC%20M%C3%A1rmores%2C%20Rodovia%20Jos%C3%A9%20Carlos%20Daux%2016994%2C%20Vargem%20Pequena%2C%20Florian%C3%B3polis%2C%20SC" target="_blank" rel="noreferrer">Abrir rota no mapa <b aria-hidden="true">↗</b></a>
+        <a href="https://wa.me/554833692112?text=Ol%C3%A1%2C%20gostaria%20de%20confirmar%20o%20hor%C3%A1rio%20de%20atendimento%20da%20SC%20M%C3%A1rmores." target="_blank" rel="noreferrer">Confirmar atendimento <b aria-hidden="true">↗</b></a>
+      </div>
+    </div>
+  </div>
+</section>`;
+
 const replaceBrandPlaceholders = (html) => html.replace(
   /(<a\b[^>]*class="[^"]*\bbrand\b[^"]*"[^>]*>)[\s\S]*?<\/a>/gi,
   '$1<img class="brand-logo" src="/assets/sc-marmores-logo.jpg" alt="SC Mármores" /></a>',
@@ -79,6 +199,7 @@ const readLegacyPage = cache((filename) => {
     .replaceAll('<a href="#projetos">Projetos</a>', '')
     .replaceAll('<a href="/#materiais">Materiais</a>', '<a href="/catalogo">Catálogo</a>')
     .replaceAll('<a href="#materiais">Materiais</a>', '<a href="/catalogo">Catálogo</a>')
+    .replaceAll('<a href="/catalogo">Catálogo</a>', '<a href="/catalogo">Catálogo</a><a href="/blog">Blog</a>')
     .replaceAll('<a class="header-cta project-form-trigger" href="#contato">Apresentar seu projeto <span>↗</span></a>', headerWhatsappCta)
     .replaceAll('<a class="header-cta" href="#contato">Apresentar seu projeto <span>↗</span></a>', headerWhatsappCta);
 
@@ -89,7 +210,7 @@ const readLegacyPage = cache((filename) => {
       .replace(
         /<section class="hero">\s*<img[^>]+src="\/assets\/hero-cozinha\.webp"[^>]*\/>\s*<\/section>/i,
         `<section class="hero">
-          <video class="hero-video" muted autoplay loop playsinline preload="auto" aria-hidden="true">
+          <video class="hero-video" muted autoplay loop playsinline preload="metadata" poster="/assets/hero-desktop-poster.webp" aria-hidden="true">
             <source src="/assets/hero-mobile-ping-pong.mp4" type="video/mp4" media="(max-width: 600px)" />
             <source src="/assets/hero-luzes-ping-pong.mp4" type="video/mp4" />
           </video>
@@ -134,8 +255,9 @@ const readLegacyPage = cache((filename) => {
       .replace('Matéria escolhida<br />com intenção.', 'Encontre a pedra certa<br />para o seu ambiente.')
       .replace(
         /<div class="material-gallery"[\s\S]*?<\/div>\s*<\/section>/i,
-        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>${trustSection}`,
+        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>${trustSection}${homeBlogSection}${locationSection}`,
       )
+      .replaceAll('<a href="/blog">Blog</a>', '<a href="#blog">Blog</a>')
       .replaceAll('href="/marmores.html"', 'href="/catalogo/marmores"')
       .replaceAll('href="/quartzitos.html"', 'href="/catalogo/quartzitos"')
       .replaceAll('href="/granitos.html"', 'href="/catalogo/granitos"')

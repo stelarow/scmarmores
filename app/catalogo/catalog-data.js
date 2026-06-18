@@ -119,6 +119,23 @@ const featureNameOverrides = {
 const categoryHeroSources = {
   silestones: '/catalogo/editorial/silestones/pagina-004-imagem-02.webp',
   dekton: '/catalogo/editorial/dekton/pagina-013-imagem-02.webp',
+  granitos: '/catalogo/editorial/granitos/pagina-024-imagem-01.webp',
+  quartzitos: '/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp',
+  compacstones: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
+  onix: '/catalogo/editorial/onix/pagina-048-imagem-01.webp',
+  marmores: '/catalogo/editorial/marmores/pagina-053-imagem-02.webp',
+  limestones: '/catalogo/editorial/limestones/pagina-064-imagem-02.webp',
+  infinity: '/catalogo/editorial/infinity/pagina-066-imagem-02.webp',
+  crystal: '/catalogo/editorial/crystal/pagina-071-imagem-02.webp',
+};
+
+const categoryPreviewSources = {
+  silestones: '/catalogo/editorial/silestones/pagina-004-imagem-02.webp',
+  dekton: '/catalogo/editorial/dekton/pagina-013-imagem-02.webp',
+  granitos: '/catalogo/editorial/granitos/pagina-024-imagem-01.webp',
+  quartzitos: '/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp',
+  compacstones: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
+  onix: '/catalogo/editorial/onix/pagina-048-imagem-01.webp',
   marmores: '/catalogo/editorial/marmores/pagina-053-imagem-02.webp',
   limestones: '/catalogo/editorial/limestones/pagina-064-imagem-02.webp',
   infinity: '/catalogo/editorial/infinity/pagina-066-imagem-02.webp',
@@ -270,7 +287,18 @@ const enrichAssets = (category) => {
   });
 };
 
-export const catalogCategories = categoryDefinitions.map((category) => {
+const summarizeCategory = (category) => ({
+  ...category,
+  hero: { src: categoryHeroSources[category.slug] },
+  preview: { src: categoryPreviewSources[category.slug] || categoryHeroSources[category.slug] },
+});
+
+export const catalogCategories = categoryDefinitions.map(summarizeCategory);
+
+export const getCatalogCategory = (slug) => {
+  const category = categoryDefinitions.find((item) => item.slug === slug);
+  if (!category) return undefined;
+
   const assets = enrichAssets(category);
   return {
     ...category,
@@ -280,6 +308,4 @@ export const catalogCategories = categoryDefinitions.map((category) => {
       || assets[0],
     preview: assets.find((asset) => asset.role === 'sample') || assets[0],
   };
-});
-
-export const getCatalogCategory = (slug) => catalogCategories.find((category) => category.slug === slug);
+};

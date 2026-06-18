@@ -96,6 +96,25 @@ export default function LegacyInteractions({ bodyClass }) {
     const year = document.querySelector('#year');
     if (year) year.textContent = new Date().getFullYear();
 
+    const mapFrame = document.querySelector('.lazy-map-frame');
+    let mapObserver;
+    if (mapFrame?.dataset.src) {
+      const loadMap = () => {
+        if (!mapFrame.src) mapFrame.src = mapFrame.dataset.src;
+      };
+
+      if ('IntersectionObserver' in window) {
+        mapObserver = new IntersectionObserver((entries) => {
+          if (!entries.some((entry) => entry.isIntersecting)) return;
+          loadMap();
+          mapObserver.disconnect();
+        }, { rootMargin: '700px 0px' });
+        mapObserver.observe(mapFrame);
+      } else {
+        loadMap();
+      }
+    }
+
     const formatPhone = (input) => {
       const digits = input.value.replace(/\D/g, '').slice(0, 11);
       const areaCode = digits.slice(0, 2);
@@ -188,6 +207,7 @@ export default function LegacyInteractions({ bodyClass }) {
     return () => {
       listeners.forEach((remove) => remove());
       removeHeroPlaybackListeners();
+      mapObserver?.disconnect();
       if (heroVideo) {
         heroVideo.pause();
       }
