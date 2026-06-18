@@ -121,7 +121,7 @@ const categoryHeroSources = {
   dekton: '/catalogo/editorial/dekton/pagina-013-imagem-02.webp',
   granitos: '/catalogo/editorial/granitos/pagina-024-imagem-01.webp',
   quartzitos: '/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp',
-  compacstones: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
+  quartzos: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
   onix: '/catalogo/editorial/onix/pagina-048-imagem-01.webp',
   marmores: '/catalogo/editorial/marmores/pagina-053-imagem-02.webp',
   limestones: '/catalogo/editorial/limestones/pagina-064-imagem-02.webp',
@@ -134,7 +134,7 @@ const categoryPreviewSources = {
   dekton: '/catalogo/editorial/dekton/pagina-013-imagem-02.webp',
   granitos: '/catalogo/editorial/granitos/pagina-024-imagem-01.webp',
   quartzitos: '/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp',
-  compacstones: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
+  quartzos: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
   onix: '/catalogo/editorial/onix/pagina-048-imagem-01.webp',
   marmores: '/catalogo/editorial/marmores/pagina-053-imagem-02.webp',
   limestones: '/catalogo/editorial/limestones/pagina-064-imagem-02.webp',
@@ -173,7 +173,8 @@ const categoryDefinitions = [
     description: 'Quartzitos selecionados por sua presença natural e pela diversidade de desenhos encontrados em cada pedra.',
   },
   {
-    slug: 'compacstones',
+    slug: 'quartzos',
+    assetSlug: 'compacstones',
     name: 'Quartzos',
     eyebrow: 'Uniformidade mineral',
     statement: 'Uma paleta objetiva para superfícies contínuas.',
@@ -229,7 +230,7 @@ const getCategoryAssets = (category) => {
   if (category.slug === 'quartzitos') {
     return catalogAssets.quartzitos.filter((asset) => asset.page !== 33 || asset.sequence === 1);
   }
-  if (category.slug !== 'granitos') return catalogAssets[category.slug];
+  if (category.slug !== 'granitos') return catalogAssets[category.assetSlug || category.slug];
 
   return catalogAssets.granitos.filter((asset) => {
     if (asset.page < 25 || asset.page > 30) return true;
@@ -241,7 +242,7 @@ const getAssetRole = (category, asset) => {
   if (category.slug === 'granitos' && asset.page >= 25 && asset.page <= 30) {
     return 'sample';
   }
-  if (category.slug === 'compacstones' && asset.page > 45) return 'sample';
+  if (category.slug === 'quartzos' && asset.page > 45) return 'sample';
   if (category.slug === 'onix' && asset.page > 48) return asset.sequence === 1 ? 'feature' : 'sample';
   if (category.slug === 'crystal' && asset.page === 71) return asset.sequence <= 3 ? 'feature' : 'sample';
   if (category.slug === 'infinity' && asset.page === 69) return asset.sequence === 1 ? 'feature' : 'sample';
@@ -256,7 +257,7 @@ const getSampleNameIndex = (category, asset, pageIndex) => {
   if (category.slug === 'granitos' && asset.page >= 25 && asset.page <= 30) {
     return Math.floor((asset.sequence - 2) / 2);
   }
-  if (category.slug === 'compacstones') return asset.sequence - 5;
+  if (category.slug === 'quartzos') return asset.sequence - 5;
   if (category.slug === 'dekton' && asset.page === 23) return asset.sequence - 4;
   if (category.slug === 'crystal' && asset.page === 71) return asset.sequence >= 4 ? asset.sequence - 4 : asset.sequence - 2;
   if (category.slug === 'infinity' && asset.page === 69) return 0;

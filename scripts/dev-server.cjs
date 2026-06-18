@@ -14,7 +14,7 @@ const routesToWarm = [
   '/catalogo/quartzitos',
   '/catalogo/dekton',
   '/catalogo/silestones',
-  '/catalogo/compacstones',
+  '/catalogo/quartzos',
   '/catalogo/onix',
   '/catalogo/limestones',
   '/catalogo/infinity',

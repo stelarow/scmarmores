@@ -30,7 +30,7 @@ const homeMaterials = [
     image: '/catalogo/editorial/quartzitos/pagina-035-imagem-02.webp',
   },
   {
-    slug: 'compacstones',
+    slug: 'quartzos',
     name: 'Quartzos',
     eyebrow: 'Uniformidade mineral',
     image: '/catalogo/editorial/compacstones/pagina-045-imagem-02.webp',
@@ -169,7 +169,6 @@ const locationSection = `<section class="location" id="como-chegar" aria-labelle
       </dl>
       <div class="location-actions">
         <a href="https://www.google.com/maps/dir/?api=1&destination=SC%20M%C3%A1rmores%2C%20Rodovia%20Jos%C3%A9%20Carlos%20Daux%2016994%2C%20Vargem%20Pequena%2C%20Florian%C3%B3polis%2C%20SC" target="_blank" rel="noreferrer">Abrir rota no mapa <b aria-hidden="true">↗</b></a>
-        <a href="https://wa.me/554833692112?text=Ol%C3%A1%2C%20gostaria%20de%20confirmar%20o%20hor%C3%A1rio%20de%20atendimento%20da%20SC%20M%C3%A1rmores." target="_blank" rel="noreferrer">Confirmar atendimento <b aria-hidden="true">↗</b></a>
       </div>
     </div>
   </div>
@@ -197,6 +196,7 @@ const readLegacyPage = cache((filename) => {
   html = html
     .replaceAll('<a href="/#projetos">Projetos</a>', '')
     .replaceAll('<a href="#projetos">Projetos</a>', '')
+    .replaceAll('<a href="#contato">Contato</a>', '')
     .replaceAll('<a href="/#materiais">Materiais</a>', '<a href="/catalogo">Catálogo</a>')
     .replaceAll('<a href="#materiais">Materiais</a>', '<a href="/catalogo">Catálogo</a>')
     .replaceAll('<a href="/catalogo">Catálogo</a>', '<a href="/catalogo">Catálogo</a><a href="/blog">Blog</a>')
@@ -282,34 +282,11 @@ const readLegacyPage = cache((filename) => {
       )
       .replace(
         /<section class="contact" id="contato">[\s\S]*?<\/section>/i,
-        `<section class="contact contact-help" id="contato">
-          <div class="contact-help-intro">
-            <p>Fale conosco</p>
-            <h2>Não sabe qual pedra escolher? Nós ajudamos.</h2>
-            <span>Conte brevemente o que você precisa. Basta informar seu nome e telefone para nossa equipe entrar em contato.</span>
-            <a class="contact-whatsapp-link" href="https://wa.me/554833692112?text=Olá%2C%20gostaria%20de%20falar%20com%20a%20SC%20Mármores." target="_blank" rel="noreferrer">Prefiro falar no WhatsApp <b>↗</b></a>
-          </div>
-          <form class="contact-form" id="contact-form">
-            <label class="form-field">
-              <span>Nome</span>
-              <input type="text" name="nome" autocomplete="name" required />
-            </label>
-            <label class="form-field">
-              <span>Telefone</span>
-              <input type="tel" name="telefone" autocomplete="tel" placeholder="(00) 00000-0000" required />
-            </label>
-            <label class="form-field">
-              <span>Observação <i>opcional</i></span>
-              <textarea name="observacao" rows="4" placeholder="Conte sobre o ambiente, material ou dúvida"></textarea>
-            </label>
-            <button class="contact-submit" type="submit">Enviar contato <b>→</b></button>
-            <p>Ao enviar, você será direcionado ao WhatsApp com as informações preenchidas.</p>
-          </form>
-        </section>`,
+        '',
       )
       .replace(
         '<div><span>Comece seu projeto</span><a class="project-form-trigger" href="#contato">Apresentar seu projeto</a><a href="mailto:contato@scmarmores.com.br">Enviar plantas e referências</a></div>',
-        '<div><span>Fale conosco</span><a href="#contato">Enviar uma mensagem</a><a href="https://wa.me/554833692112" target="_blank" rel="noreferrer">Conversar pelo WhatsApp</a></div>',
+        '<div><span>Fale conosco</span><a href="mailto:contato@scmarmores.com.br">Enviar email</a><a href="https://wa.me/554833692112" target="_blank" rel="noreferrer">Conversar pelo WhatsApp</a></div>',
       )
       .replace('href="tel:+5500000000000">(00) 00000-0000</a>', 'href="tel:+554833692112">(48) 3369-2112</a>')
       .replace(/<dialog class="project-dialog"[\s\S]*?<\/dialog>/i, '');
