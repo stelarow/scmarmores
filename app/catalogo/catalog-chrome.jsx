@@ -9,6 +9,14 @@ const WhatsAppIcon = () => (
   </svg>
 );
 
+const InstagramIcon = () => (
+  <svg className="instagram-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <rect x="3.25" y="3.25" width="17.5" height="17.5" rx="4.75" />
+    <circle cx="12" cy="12" r="4.1" />
+    <circle cx="17.35" cy="6.75" r="1.05" fill="currentColor" stroke="none" />
+  </svg>
+);
+
 const Brand = ({ footer = false }) => (
   <Link className={`brand${footer ? ' footer-brand' : ''}`} href="/" aria-label="SC Mármores, início">
     <img className="brand-logo" src="/assets/sc-marmores-logo.jpg" alt="SC Mármores" />
@@ -26,7 +34,7 @@ export function CatalogHeader({ showBlog = true }) {
           <Link href="#contato">Contato</Link>
         </nav>
         <a className="header-cta header-whatsapp-cta" href={whatsappHref} target="_blank" rel="noreferrer" aria-label="Fale conosco pelo WhatsApp">
-          Fale conosco <WhatsAppIcon />
+          <WhatsAppIcon />
         </a>
         <button className="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
           <span></span><span></span>
@@ -53,6 +61,10 @@ export function CatalogFooter({ showBlogLink = true }) {
         <Link href="#contato">Consultar disponibilidade</Link>
       </div>
       <div className="footer-meta">
+        <nav className="footer-socials" aria-label="Redes sociais">
+          <a href={whatsappHref} target="_blank" rel="noreferrer" aria-label="Fale conosco pelo WhatsApp"><WhatsAppIcon /></a>
+          <a href="https://www.instagram.com/scmarmores/" target="_blank" rel="noreferrer" aria-label="Siga a SC Mármores no Instagram"><InstagramIcon /></a>
+        </nav>
         <p>© <span id="year"></span> SC Mármores</p>
         <p>Florianópolis, SC</p>
       </div>

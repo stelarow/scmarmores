@@ -132,6 +132,20 @@ const homeBlogSection = `<section class="home-blog" id="blog" aria-labelledby="h
   </a>
 </section>`;
 
+const aboutSection = `<section class="about" id="sobre-nos" aria-labelledby="sobre-nos-title">
+  <figure class="about-image">
+    <img src="/assets/escada-calcario.webp" alt="Escada em pedra natural executada pela SC Mármores" loading="lazy" />
+  </figure>
+  <div class="about-copy">
+    <p>Sobre a SC Mármores</p>
+    <h2 id="sobre-nos-title">Pedra, técnica<br />e atenção ao detalhe.</h2>
+    <div>
+      <p>Há mais de 14 anos, a SC Mármores participa de projetos residenciais e comerciais em Florianópolis e região, da definição do material à instalação.</p>
+      <p>Orientamos cada escolha com base no uso, nas medidas e no resultado que o ambiente pede. A execução é feita sob medida para que desenho, acabamento e encaixes funcionem como um todo.</p>
+    </div>
+  </div>
+</section>`;
+
 const locationSection = `<section class="location" id="como-chegar" aria-labelledby="location-title">
   <div class="location-heading">
     <p>Como chegar até nós</p>
@@ -181,7 +195,9 @@ const replaceBrandPlaceholders = (html) => html.replace(
 
 const whatsappHref = 'https://wa.me/554833692112?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20SC%20M%C3%A1rmores.';
 const whatsappIcon = '<svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 3.5a8.45 8.45 0 0 0-7.3 12.7l-.88 3.26 3.34-.86a8.45 8.45 0 1 0 4.84-15.1Zm0 1.55a6.9 6.9 0 0 1 5.87 10.52 6.9 6.9 0 0 1-8.12 2.57l-.32-.15-1.98.51.52-1.92-.18-.33a6.9 6.9 0 0 1 4.21-11.2Zm-2.86 3.7c-.15 0-.4.05-.62.29-.21.23-.81.79-.81 1.93s.83 2.24.95 2.4c.12.15 1.63 2.48 3.95 3.48.55.24.98.38 1.32.49.55.18 1.06.15 1.45.09.44-.07 1.36-.56 1.55-1.1.19-.53.19-.99.13-1.09-.06-.1-.21-.15-.45-.27-.23-.12-1.36-.67-1.57-.75-.21-.08-.37-.12-.52.12-.15.23-.6.75-.73.9-.14.16-.27.18-.5.06-.24-.12-1-.37-1.9-1.17-.7-.63-1.18-1.4-1.32-1.64-.14-.23-.01-.36.1-.48.11-.1.24-.27.36-.41.12-.14.16-.24.24-.4.08-.15.04-.29-.02-.41-.06-.12-.52-1.26-.72-1.73-.19-.46-.38-.39-.52-.4h-.44Z" /></svg>';
-const headerWhatsappCta = `<a class="header-cta header-whatsapp-cta" href="${whatsappHref}" target="_blank" rel="noreferrer" aria-label="Fale conosco pelo WhatsApp">Fale conosco ${whatsappIcon}</a>`;
+const instagramIcon = '<svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.25" y="3.25" width="17.5" height="17.5" rx="4.75" /><circle cx="12" cy="12" r="4.1" /><circle cx="17.35" cy="6.75" r="1.05" fill="currentColor" stroke="none" /></svg>';
+const headerWhatsappCta = `<a class="header-cta header-whatsapp-cta" href="${whatsappHref}" target="_blank" rel="noreferrer" aria-label="Fale conosco pelo WhatsApp">${whatsappIcon}</a>`;
+const footerSocialLinks = `<div class="footer-socials"><span>Redes sociais</span><nav aria-label="Redes sociais"><a href="${whatsappHref}" target="_blank" rel="noreferrer" aria-label="Fale conosco pelo WhatsApp">${whatsappIcon}</a><a href="https://www.instagram.com/scmarmores/" target="_blank" rel="noreferrer" aria-label="Siga a SC Mármores no Instagram">${instagramIcon}</a></nav></div>`;
 
 const readLegacyPage = cache((filename) => {
   const source = fs.readFileSync(path.join(process.cwd(), filename), 'utf8');
@@ -218,24 +234,22 @@ const readLegacyPage = cache((filename) => {
             <p>SC Mármores</p>
             <h1>Pedras sob medida<br />para transformar ambientes.</h1>
           </div>
-          <a class="hero-proof" href="https://www.google.com/search?q=SCmarmores" target="_blank" rel="noreferrer" aria-label="Ver avaliações da SC Mármores no Google">
+          <div class="hero-proof">
             <span class="hero-proof-inner">
               <span class="hero-proof-desktop">
                 <span class="hero-proof-stars" aria-hidden="true">★★★★★</span>
                 <strong>4,9 no Google</strong>
                 <span>284 avaliações</span>
                 <span>14 anos de experiência</span>
-                <b aria-hidden="true">↗</b>
               </span>
               <span class="hero-proof-mobile">
                 <span aria-hidden="true">★</span>
                 <strong>4,9</strong>
                 <span>284 avaliações</span>
                 <span>14 anos</span>
-                <b aria-hidden="true">↗</b>
               </span>
             </span>
-          </a>
+          </div>
         </section>`,
       )
       .replace(
@@ -255,7 +269,7 @@ const readLegacyPage = cache((filename) => {
       .replace('Matéria escolhida<br />com intenção.', 'Encontre a pedra certa<br />para o seu ambiente.')
       .replace(
         /<div class="material-gallery"[\s\S]*?<\/div>\s*<\/section>/i,
-        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>${trustSection}${homeBlogSection}${locationSection}`,
+        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>${aboutSection}${trustSection}${homeBlogSection}${locationSection}`,
       )
       .replaceAll('<a href="/blog">Blog</a>', '<a href="#blog">Blog</a>')
       .replaceAll('href="/marmores.html"', 'href="/catalogo/marmores"')
@@ -286,7 +300,7 @@ const readLegacyPage = cache((filename) => {
       )
       .replace(
         '<div><span>Comece seu projeto</span><a class="project-form-trigger" href="#contato">Apresentar seu projeto</a><a href="mailto:contato@scmarmores.com.br">Enviar plantas e referências</a></div>',
-        '<div><span>Fale conosco</span><a href="mailto:contato@scmarmores.com.br">Enviar email</a><a href="https://wa.me/554833692112" target="_blank" rel="noreferrer">Conversar pelo WhatsApp</a></div>',
+        footerSocialLinks,
       )
       .replace('href="tel:+5500000000000">(00) 00000-0000</a>', 'href="tel:+554833692112">(48) 3369-2112</a>')
       .replace(/<dialog class="project-dialog"[\s\S]*?<\/dialog>/i, '');

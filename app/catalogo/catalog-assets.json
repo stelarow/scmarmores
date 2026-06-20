@@ -1277,15 +1277,6 @@
       "role": "sample",
       "width": 354,
       "height": 354,
-      "name": "Kairos"
-    },
-    {
-      "src": "/catalogo/editorial/dekton/pagina-023-imagem-06.webp",
-      "page": 23,
-      "sequence": 6,
-      "role": "feature",
-      "width": 2048,
-      "height": 1152,
       "name": "Danae"
     }
   ],
@@ -2426,16 +2417,6 @@
       "source": "PDF pagina 46, posicao visual 10"
     },
     {
-      "src": "/catalogo/editorial/compacstones/pagina-046-amostra-11.webp",
-      "page": 46,
-      "sequence": 111,
-      "role": "sample",
-      "name": "Sandstorm",
-      "width": 252,
-      "height": 354,
-      "source": "PDF pagina 46, posicao visual 11"
-    },
-    {
       "src": "/catalogo/editorial/compacstones/pagina-046-amostra-12.webp",
       "page": 46,
       "sequence": 112,
@@ -2544,26 +2525,6 @@
       "width": 252,
       "height": 354,
       "source": "PDF pagina 47, posicao visual 10"
-    },
-    {
-      "src": "/catalogo/editorial/compacstones/pagina-047-amostra-11.webp",
-      "page": 47,
-      "sequence": 111,
-      "role": "sample",
-      "name": "Arctic Premium",
-      "width": 252,
-      "height": 354,
-      "source": "PDF pagina 47, posicao visual 11"
-    },
-    {
-      "src": "/catalogo/editorial/compacstones/pagina-047-amostra-12.webp",
-      "page": 47,
-      "sequence": 112,
-      "role": "sample",
-      "name": "Arctic",
-      "width": 236,
-      "height": 354,
-      "source": "PDF pagina 47, posicao visual 12"
     }
   ],
   "onix": [
