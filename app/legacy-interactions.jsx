@@ -80,6 +80,12 @@ export default function LegacyInteractions({ bodyClass }) {
       toggle?.setAttribute('aria-expanded', 'false');
     }));
 
+    document.querySelectorAll('a[href="#topo"]').forEach((link) => listen(link, 'click', (event) => {
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (window.location.hash !== '#topo') history.pushState(null, '', '#topo');
+    }));
+
     const preview = document.querySelector('.material-preview');
     const updateMaterial = (button) => {
       document.querySelectorAll('.material').forEach((item) => item.classList.toggle('active', item === button));
