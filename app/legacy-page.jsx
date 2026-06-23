@@ -132,20 +132,6 @@ const homeBlogSection = `<section class="home-blog" id="blog" aria-labelledby="h
   </a>
 </section>`;
 
-const aboutSection = `<section class="about" id="sobre-nos" aria-labelledby="sobre-nos-title">
-  <figure class="about-image">
-    <img src="/assets/escada-calcario.webp" alt="Escada em pedra natural executada pela SC Mármores" loading="lazy" />
-  </figure>
-  <div class="about-copy">
-    <p>Sobre a SC Mármores</p>
-    <h2 id="sobre-nos-title">Pedra, técnica<br />e atenção ao detalhe.</h2>
-    <div>
-      <p>Há mais de 14 anos, a SC Mármores participa de projetos residenciais e comerciais em Florianópolis e região, da definição do material à instalação.</p>
-      <p>Orientamos cada escolha com base no uso, nas medidas e no resultado que o ambiente pede. A execução é feita sob medida para que desenho, acabamento e encaixes funcionem como um todo.</p>
-    </div>
-  </div>
-</section>`;
-
 const locationSection = `<section class="location" id="como-chegar" aria-labelledby="location-title">
   <div class="location-heading">
     <p>Como chegar até nós</p>
@@ -269,7 +255,7 @@ const readLegacyPage = cache((filename) => {
       .replace('Matéria escolhida<br />com intenção.', 'Encontre a pedra certa<br />para o seu ambiente.')
       .replace(
         /<div class="material-gallery"[\s\S]*?<\/div>\s*<\/section>/i,
-        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>${aboutSection}${trustSection}${homeBlogSection}${locationSection}`,
+        `<div class="material-gallery" aria-label="Curadoria de materiais SC Mármores">${materialGallery}</div></section>${trustSection}${homeBlogSection}${locationSection}`,
       )
       .replaceAll('<a href="/blog">Blog</a>', '<a href="#blog">Blog</a>')
       .replaceAll('href="/marmores.html"', 'href="/catalogo/marmores"')
