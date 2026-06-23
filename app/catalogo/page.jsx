@@ -26,17 +26,6 @@ export default function CatalogPage() {
           </div>
         </section>
 
-        <section className="catalog-intro">
-          <p>Dez famílias · mais de 200 modelos</p>
-          <div>
-            <h2>Um repertório amplo, apresentado com clareza.</h2>
-            <p>
-              Explore as famílias disponíveis e observe cores, movimentos e possibilidades de aplicação. Na etapa de
-              especificação, nossa equipe orienta a escolha e confirma a disponibilidade.
-            </p>
-          </div>
-        </section>
-
         <section className="catalog-index" aria-labelledby="catalog-index-title">
           <div className="catalog-index-heading">
             <h2 id="catalog-index-title">Explore por matéria.</h2>
