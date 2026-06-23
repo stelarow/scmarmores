@@ -29,6 +29,7 @@ export function CatalogHeader({ showBlog = true }) {
       <header className="site-header catalog-site-header" id="topo">
         <Brand />
         <nav className="desktop-nav" aria-label="Navegação principal">
+          <Link href="/sobre-nos">Sobre</Link>
           <Link href="/catalogo">Catálogo</Link>
           {showBlog ? <Link href="/blog">Blog</Link> : null}
           <Link href="#contato">Contato</Link>

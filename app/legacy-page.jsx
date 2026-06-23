@@ -202,6 +202,7 @@ const readLegacyPage = cache((filename) => {
     .replaceAll('<a href="/#materiais">Materiais</a>', '<a href="/catalogo">Catálogo</a>')
     .replaceAll('<a href="#materiais">Materiais</a>', '<a href="/catalogo">Catálogo</a>')
     .replaceAll('<a href="/catalogo">Catálogo</a>', '<a href="/catalogo">Catálogo</a><a href="/blog">Blog</a>')
+      .replaceAll('<a href="/catalogo">Catálogo</a><a href="/blog">Blog</a>', '<a href="/sobre-nos">Sobre</a><a href="/catalogo">Catálogo</a><a href="/blog">Blog</a>')
     .replaceAll('<a class="header-cta project-form-trigger" href="#contato">Apresentar seu projeto <span>↗</span></a>', headerWhatsappCta)
     .replaceAll('<a class="header-cta" href="#contato">Apresentar seu projeto <span>↗</span></a>', headerWhatsappCta);
 

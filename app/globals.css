@@ -710,3 +710,65 @@ html.scroll-reveal [data-reveal].is-revealed { opacity: 1; transform: none; will
   .catalog-editorial-grid { padding-right: 1rem; padding-left: 1rem; grid-template-columns: 1fr; }
   .catalog-editorial-grid { gap: 3.5rem; }
 }
+
+/* Sobre nós */
+.about-page { background: var(--bg); color: var(--ink-dark); }
+.about-hero > img { object-position: center 38%; filter: saturate(.82) contrast(1.03); }
+
+.about-formation { padding: clamp(6rem, 10vw, 10rem) var(--pad); border-top: 1px solid var(--line-dark); display: grid; grid-template-columns: .7fr 1.3fr; gap: clamp(3rem, 8vw, 10rem); align-items: end; }
+.about-formation > div > p { margin: .5rem 0 0; color: var(--primary); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
+.about-formation h2 { margin: 0; font: 400 clamp(2.8rem, 5.5vw, 5.4rem)/1.04 var(--display); letter-spacing: -.025em; text-wrap: balance; }
+.about-formation-copy { margin: 0; max-width: 620px; color: var(--text-soft); font-size: 1rem; line-height: 1.95; }
+.about-formation-copy a { color: var(--ink-dark); border-bottom: 1px solid var(--primary); padding-bottom: 1px; transition: color .3s, border-color .3s; }
+.about-formation-copy a:hover, .about-formation-copy a:focus-visible { color: var(--primary); }
+
+.about-values { padding: clamp(6rem, 10vw, 10rem) var(--pad); background: var(--orange-wash); }
+.about-values-heading { display: grid; grid-template-columns: .7fr 1.3fr; gap: clamp(3rem, 8vw, 10rem); align-items: end; padding-bottom: clamp(3rem, 5vw, 5rem); border-bottom: 1px solid var(--line-dark); }
+.about-values-heading > p { margin: .5rem 0 0; color: var(--primary); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
+.about-values-heading h2 { margin: 0; font: 400 clamp(2.8rem, 5.5vw, 5.4rem)/1.04 var(--display); letter-spacing: -.025em; text-wrap: balance; }
+.about-values-grid { margin-top: clamp(3rem, 5vw, 5rem); display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(2rem, 4vw, 4rem); }
+.about-value { padding: clamp(2rem, 3vw, 2.5rem) 0 0; border-top: 1px solid var(--line-dark); }
+.about-value span { color: var(--primary); font-size: .66rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
+.about-value h3 { margin: 1.2rem 0 .9rem; font: 400 clamp(1.7rem, 2.6vw, 2.6rem)/1.12 var(--display); letter-spacing: -.015em; }
+.about-value p { margin: 0; color: var(--text-soft); line-height: 1.8; }
+
+.about-products { padding: clamp(6rem, 10vw, 10rem) var(--pad); }
+.about-products-heading { display: grid; grid-template-columns: .7fr 1.3fr; gap: clamp(3rem, 8vw, 10rem); align-items: end; padding-bottom: clamp(3rem, 5vw, 5rem); border-bottom: 1px solid var(--line-dark); }
+.about-products-heading > p { margin: .5rem 0 0; color: var(--primary); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
+.about-products-heading h2 { margin: 0 0 2rem; font: 400 clamp(2.8rem, 5.5vw, 5.4rem)/1.04 var(--display); letter-spacing: -.025em; text-wrap: balance; }
+.about-products-heading div p { margin: 0; max-width: 620px; color: var(--text-soft); line-height: 1.9; }
+.about-products-list { margin: clamp(3rem, 5vw, 5rem) 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 clamp(1.5rem, 3vw, 3rem); }
+.about-products-list li { padding: 1.15rem 0; border-bottom: 1px solid var(--line-light); display: flex; align-items: center; gap: .85rem; color: var(--ink-dark); font-size: .82rem; }
+.about-products-list li::before { content: ""; width: .4rem; height: .4rem; border-radius: 50%; background: var(--primary); flex: 0 0 auto; }
+
+.suppliers { padding: clamp(6rem, 10vw, 10rem) 0 clamp(7rem, 12vw, 12rem); background: var(--surface-light); overflow: hidden; }
+.suppliers-heading { margin: 0 var(--pad); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem, 8vw, 9rem); align-items: end; padding-bottom: clamp(3rem, 6vw, 6rem); }
+.suppliers-heading > div > p { margin: 0 0 2rem; color: var(--primary); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
+.suppliers-heading h2 { margin: 0; font: 400 clamp(3rem, 6.2vw, 6rem)/1 var(--display); letter-spacing: -.025em; text-wrap: balance; }
+.suppliers-heading > span { max-width: 500px; color: var(--text-soft); line-height: 1.85; }
+.suppliers-marquee { position: relative; overflow: hidden; }
+.suppliers-track { display: flex; width: max-content; gap: clamp(1rem, 2vw, 1.5rem); padding: 0 var(--pad); animation: suppliers-scroll 40s linear infinite; }
+.suppliers-marquee:hover .suppliers-track, .suppliers-marquee:focus-within .suppliers-track { animation-play-state: paused; }
+@keyframes suppliers-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.supplier-card { position: relative; min-width: clamp(210px, 24vw, 290px); min-height: 158px; padding: clamp(1.6rem, 2.6vw, 2.2rem); border: 1px solid var(--line-light); background: var(--bg); display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem; color: var(--ink-dark); transition: border-color .3s, background .3s; }
+.supplier-card:hover, .supplier-card:focus-visible { border-color: var(--primary); background: var(--orange-wash); }
+.supplier-logo { width: auto; max-width: 100%; max-height: 46px; object-fit: contain; object-position: left center; opacity: .5; transition: opacity .4s var(--ease); }
+.supplier-card:hover .supplier-logo, .supplier-card:focus-visible .supplier-logo { opacity: 1; }
+.supplier-note { color: var(--primary); font-size: .62rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.supplier-card b { position: absolute; top: clamp(1.6rem, 2.6vw, 2.2rem); right: clamp(1.6rem, 2.6vw, 2.2rem); color: var(--primary); font-size: 1.1rem; font-weight: 400; opacity: 0; transform: translate(-4px, 4px); transition: opacity .35s var(--ease), transform .35s var(--ease); }
+.supplier-card:hover b, .supplier-card:focus-visible b { opacity: 1; transform: none; }
+
+@media (max-width: 900px) {
+  .about-values-heading, .about-products-heading, .suppliers-heading, .about-formation { grid-template-columns: 1fr; }
+  .about-values-grid { grid-template-columns: 1fr; }
+  .about-products-list { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .about-products-list { grid-template-columns: 1fr; }
+  .supplier-card { min-width: 78vw; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .suppliers-marquee { overflow: visible; }
+  .suppliers-track { animation: none; flex-wrap: wrap; justify-content: flex-start; width: 100%; }
+  .supplier-card { min-width: 0; flex: 1 1 240px; }
+}

@@ -242,6 +242,10 @@ function setupScrollReveal() {
     '.catalog-index-heading',
     '.catalog-disclaimer',
     '.blog-index-heading',
+    '.about-values-heading',
+    '.about-products-heading',
+    '.about-formation',
+    '.suppliers-heading',
     'footer',
   ];
 
@@ -253,6 +257,8 @@ function setupScrollReveal() {
     { selector: '.location-shell > *', step: 80 },
     { selector: '.blog-post-list li', step: 40 },
     { selector: '.catalog-category-list li', step: 40 },
+    { selector: '.about-value', step: 70 },
+    { selector: '.about-products-list li', step: 40 },
     { selector: '.related-links a', step: 50 },
   ];
 
