@@ -6,5 +6,10 @@ export const metadata = {
 };
 
 export default function HomePage() {
-  return <LegacyPage filename="index.html" />;
+  return (
+    <>
+      <link rel="preload" href="/assets/hero-desktop-poster.webp" as="image" fetchpriority="high" />
+      <LegacyPage filename="index.html" />
+    </>
+  );
 }

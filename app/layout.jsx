@@ -1,4 +1,19 @@
 import './globals.css';
+import { Italiana, Manrope } from 'next/font/google';
+
+const italiana = Italiana({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-italiana',
+  display: 'swap',
+});
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-manrope',
+  display: 'swap',
+});
 
 const whatsappHref = 'https://wa.me/554833692112?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20SC%20M%C3%A1rmores.';
 
@@ -9,7 +24,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className={`${italiana.variable} ${manrope.variable}`}>
       <body>
         {children}
         <a
