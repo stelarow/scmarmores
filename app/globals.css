@@ -124,15 +124,6 @@ h1 em { color: var(--accent); font-weight: 400; }
 .material-tile:hover img, .material-tile:focus-visible img { transform: scale(1.025); filter: saturate(1.08); }
 .material-tile:hover i, .material-tile:focus-visible i { transform: translate(3px, -3px); }
 
-.about { padding: clamp(6rem, 11vw, 11rem) var(--pad); display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(280px, .75fr); gap: clamp(3rem, 10vw, 12rem); align-items: center; background: var(--bg); color: var(--ink-dark); }
-.about-image { min-height: 500px; margin: 0; overflow: hidden; background: var(--surface); }
-.about-image img { width: 100%; height: 100%; object-fit: cover; }
-.about-copy { max-width: 500px; }
-.about-copy > p { margin: 0 0 2rem; color: var(--primary); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
-.about-copy h2 { margin: 0; font: 400 clamp(3rem, 5.4vw, 5.5rem)/1.02 var(--display); letter-spacing: -.025em; text-wrap: balance; }
-.about-copy > div { margin-top: clamp(2rem, 4vw, 3rem); display: grid; gap: 1.15rem; color: var(--text-soft); line-height: 1.85; }
-.about-copy > div p { margin: 0; }
-
 .process { background: var(--surface-light); color: var(--ink-dark); padding: clamp(7rem, 12vw, 12rem) var(--pad); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(4rem, 10vw, 12rem); }
 .process-title > p { color: var(--primary); }
 .process ol { margin: 0; padding: 0; list-style: none; }
@@ -414,6 +405,14 @@ footer p { color: var(--muted); font-size: .65rem; }
 @keyframes dialog-in { from { opacity: 0; transform: translateY(18px) scale(.985); } to { opacity: 1; transform: none; } }
 @keyframes form-step-in { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: none; } }
 
+/* Scroll reveal — revelação editorial via IntersectionObserver.
+   Estado oculto só existe quando JS adiciona a classe "scroll-reveal"
+   em <html>; sem JS, todo conteúdo permanece visível (resiliência). */
+html.scroll-reveal [data-reveal]:not(.is-revealed) { opacity: 0; transform: translateY(28px); }
+html.scroll-reveal [data-reveal] { transition: opacity .6s var(--ease), transform .6s var(--ease); will-change: opacity, transform; }
+html.scroll-reveal [data-reveal].is-revealed { opacity: 1; transform: none; will-change: auto; }
+@media (prefers-reduced-motion: reduce) { html.scroll-reveal [data-reveal]:not(.is-revealed) { opacity: 1; transform: none; } }
+
 @media (max-width: 900px) {
   .site-header { height: 72px; }
   .site-header .brand-logo { width: 52px; height: 52px; }
@@ -427,7 +426,7 @@ footer p { color: var(--muted); font-size: .65rem; }
   .menu-toggle.open span:last-child { transform: translateY(-3.5px) rotate(-45deg); }
   .desktop-nav.open { position: absolute; top: 72px; left: 0; width: 100%; padding: 1rem var(--pad) 2rem; display: flex; flex-direction: column; gap: 0; background: oklch(0.99 0.004 68 / .98); border-top: 1px solid var(--line-light); color: var(--ink-dark); text-shadow: none; backdrop-filter: blur(12px); }
   .desktop-nav.open a { padding: 1rem 0; border-bottom: 1px solid var(--line-light); font-family: var(--display); font-size: 1.55rem; }
-  .manifesto, .manifesto-main, .project-featured, .project-stair, .materials-heading, .about, .process, .contact, .home-blog-heading { grid-template-columns: 1fr; }
+  .manifesto, .manifesto-main, .project-featured, .project-stair, .materials-heading, .process, .contact, .home-blog-heading { grid-template-columns: 1fr; }
   .trust-intro, .location-heading, .location-shell { grid-template-columns: 1fr; }
   .trust-intro > span { max-width: 560px; }
   .location-heading span { max-width: 620px; }
@@ -445,8 +444,6 @@ footer p { color: var(--muted); font-size: .65rem; }
   .project-stair .project-info { order: 2; padding: 2rem 0; }
   .project-stair .project-image { max-height: 680px; }
   .materials-heading-copy { max-width: 600px; justify-self: start; }
-  .about { gap: 3rem; }
-  .about-copy { max-width: 600px; }
   .material-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .material-hero-content, .material-statement, .material-statement-main, .material-applications { grid-template-columns: 1fr; }
   .material-hero-copy { max-width: 540px; }
@@ -501,7 +498,6 @@ footer p { color: var(--muted); font-size: .65rem; }
   .material-gallery { grid-template-columns: 1fr; }
   .material-tile { aspect-ratio: 4 / 5; }
   .material-tile strong { font-size: 2.2rem; }
-  .about-image { min-height: 380px; }
   .home-blog-card { grid-template-columns: 1fr; gap: 0; }
   .home-blog-card figure { aspect-ratio: 4 / 3; }
   .home-blog-card b { justify-self: start; padding-bottom: 1.25rem; }

@@ -204,10 +204,13 @@ export default function LegacyInteractions({ bodyClass }) {
       });
     }
 
+    const cleanupReveal = setupScrollReveal();
+
     return () => {
       listeners.forEach((remove) => remove());
       removeHeroPlaybackListeners();
       mapObserver?.disconnect();
+      cleanupReveal?.();
       if (heroVideo) {
         heroVideo.pause();
       }
@@ -216,4 +219,119 @@ export default function LegacyInteractions({ bodyClass }) {
   }, [bodyClass]);
 
   return null;
+}
+
+/* Sistema de revelação por scroll ("Editorial Reveal").
+ * - IntersectionObserver (sem scroll listener para animar).
+ * - Apenas transform + opacity (sem reflow/CLS).
+ * - Revela uma vez e desobserva.
+ * - Stagger por grupo (30-90ms).
+ * - Count-up dos números de confiança.
+ * - Respeita prefers-reduced-motion (nada é ocultado). */
+function setupScrollReveal() {
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (reducedMotion.matches || !('IntersectionObserver' in window)) return;
+
+  const SINGLE_REVEAL = [
+    '.materials-heading',
+    '.process-title',
+    '.trust-intro',
+    '.home-blog-heading',
+    '.location-heading',
+    '.catalog-intro',
+    '.catalog-index-heading',
+    '.catalog-disclaimer',
+    '.blog-index-heading',
+    'footer',
+  ];
+
+  const STAGGER_GROUPS = [
+    { selector: '.material-gallery .material-tile', step: 45 },
+    { selector: '.process li', step: 70 },
+    { selector: '.trust-numbers > div', step: 90 },
+    { selector: '.home-blog-grid .home-blog-card', step: 60 },
+    { selector: '.location-shell > *', step: 80 },
+    { selector: '.blog-post-list li', step: 40 },
+    { selector: '.catalog-category-list li', step: 40 },
+    { selector: '.related-links a', step: 50 },
+  ];
+
+  const COUNT_TARGETS = '.trust-numbers strong';
+
+  let observer;
+  let countObserver;
+  const marked = [];
+  const originals = new Map();
+
+  try {
+    document.documentElement.classList.add('scroll-reveal');
+
+    SINGLE_REVEAL.forEach((selector) => {
+      document.querySelectorAll(selector).forEach((el) => {
+        el.setAttribute('data-reveal', '');
+        marked.push(el);
+      });
+    });
+
+    STAGGER_GROUPS.forEach(({ selector, step }) => {
+      document.querySelectorAll(selector).forEach((item, index) => {
+        item.setAttribute('data-reveal', '');
+        item.style.transitionDelay = `${Math.min(index * step, 480)}ms`;
+        marked.push(item);
+      });
+    });
+
+    observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-revealed');
+        obs.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+
+    marked.forEach((el) => observer.observe(el));
+
+    const animateCount = (el) => {
+      const raw = el.textContent.trim();
+      originals.set(el, raw);
+      const target = parseFloat(raw.replace(',', '.'));
+      if (Number.isNaN(target)) { el.textContent = raw; return; }
+      const hasDecimal = raw.includes(',') || raw.includes('.');
+      const duration = 1100;
+      const start = performance.now();
+      const tick = (now) => {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const value = target * eased;
+        el.textContent = hasDecimal ? value.toFixed(1).replace('.', ',') : Math.round(value).toString();
+        if (progress < 1) requestAnimationFrame(tick);
+        else el.textContent = raw;
+      };
+      requestAnimationFrame(tick);
+    };
+
+    countObserver = new IntersectionObserver((entries, obs) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        animateCount(entry.target);
+        obs.unobserve(entry.target);
+      });
+    }, { threshold: 0.6 });
+    document.querySelectorAll(COUNT_TARGETS).forEach((el) => countObserver.observe(el));
+  } catch (error) {
+    observer?.disconnect();
+    countObserver?.disconnect();
+    document.documentElement.classList.remove('scroll-reveal');
+    marked.forEach((el) => { el.classList.remove('is-revealed'); el.removeAttribute('data-reveal'); el.style.transitionDelay = ''; });
+    originals.forEach((text, el) => { el.textContent = text; });
+    return;
+  }
+
+  return () => {
+    observer?.disconnect();
+    countObserver?.disconnect();
+    document.documentElement.classList.remove('scroll-reveal');
+    marked.forEach((el) => { el.classList.remove('is-revealed'); el.removeAttribute('data-reveal'); el.style.transitionDelay = ''; });
+    originals.forEach((text, el) => { el.textContent = text; });
+  };
 }
